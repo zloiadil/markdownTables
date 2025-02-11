@@ -1,0 +1,27775 @@
+<table border="1" cellpadding="5" cellspacing="0">
+ <thead>
+  <tr>
+   <th>
+    Path
+   </th>
+   <th>
+    Change id
+   </th>
+   <th>
+    Comment
+   </th>
+   <th>
+    ER
+   </th>
+   <th>
+    Link
+   </th>
+   <th>
+    Example
+   </th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <td>
+    <code>
+     paths.[
+     <path>
+      ]
+     </path>
+    </code>
+   </td>
+   <td>
+    <code>
+     add-new-path
+    </code>
+   </td>
+   <td>
+    add new path with any method
+   </td>
+   <td>
+    <code>
+     1 2 3 4 5 6
+    </code>
+   </td>
+   <td>
+    <code>
+     <div class="container" title="Hint: double-click to select code">
+      <div class="line number1 index0 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        openapi:
+       </code>
+       <code class="yml plain">
+        3.0
+       </code>
+      </div>
+      <div class="line number2 index1 alt1" data-bidi-marker="true">
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+      <div class="line number3 index2 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        paths:
+       </code>
+      </div>
+      <div class="line number4 index3 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        /pets
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number5 index4 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        post:
+       </code>
+      </div>
+      <div class="line number6 index5 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+     </div>
+    </code>
+   </td>
+   <td>
+    <div class="content-wrapper">
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        before
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon expanded">
+        </span>
+        <span class="expand-control-text">
+         Collapse source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar show-border-top">
+       <div>
+        <div class="syntaxhighlighter sh-confluence yml expanded" id="highlighter_331594">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+     <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+      <b class="code-title">
+       after
+      </b>
+      <span class="collapse-source expand-control" style="">
+       <span class="expand-control-icon icon expanded">
+       </span>
+       <span class="expand-control-text">
+        Collapse source
+       </span>
+      </span>
+     </div>
+     <div class="codeContent panelContent pdl hide-toolbar show-border-top">
+      <div>
+       <div class="syntaxhighlighter sh-confluence yml expanded" id="highlighter_289645">
+        <div class="toolbar">
+         <span>
+         </span>
+        </div>
+        <table border="0" cellpadding="0" cellspacing="0">
+         <tbody>
+          <tr>
+           <td class="gutter">
+            <div class="line number1 index0 alt2">
+             1
+            </div>
+            <div class="line number2 index1 alt1">
+             2
+            </div>
+            <div class="line number3 index2 alt2">
+             3
+            </div>
+            <div class="line number4 index3 alt1">
+             4
+            </div>
+            <div class="line number5 index4 alt2">
+             5
+            </div>
+            <div class="line number6 index5 alt1">
+             6
+            </div>
+            <div class="line number7 index6 alt2">
+             7
+            </div>
+            <div class="line number8 index7 alt1">
+             8
+            </div>
+            <div class="line number9 index8 alt2">
+             9
+            </div>
+           </td>
+           <td class="code">
+            <div class="container" title="Hint: double-click to select code">
+             <div class="line number1 index0 alt2" data-bidi-marker="true">
+              <code class="yml variable">
+               openapi:
+              </code>
+              <code class="yml plain">
+               3.0
+              </code>
+             </div>
+             <div class="line number2 index1 alt1" data-bidi-marker="true">
+              <code class="yml plain">
+               ...
+              </code>
+             </div>
+             <div class="line number3 index2 alt2" data-bidi-marker="true">
+              <code class="yml variable">
+               paths:
+              </code>
+             </div>
+             <div class="line number4 index3 alt1" data-bidi-marker="true">
+              <code class="yml spaces">
+              </code>
+              <code class="yml plain">
+               /pets
+              </code>
+              <code class="yml constants">
+               :
+              </code>
+             </div>
+             <div class="line number5 index4 alt2" data-bidi-marker="true">
+              <code class="yml spaces">
+              </code>
+              <code class="yml variable">
+               post:
+              </code>
+             </div>
+             <div class="line number6 index5 alt1" data-bidi-marker="true">
+              <code class="yml spaces">
+              </code>
+              <code class="yml plain">
+               ...
+              </code>
+             </div>
+             <div class="line number7 index6 alt2" data-bidi-marker="true">
+              <code class="yml spaces">
+              </code>
+              <code class="yml plain">
+               /petstore
+              </code>
+             </div>
+             <div class="line number8 index7 alt1" data-bidi-marker="true">
+              <code class="yml spaces">
+              </code>
+              <code class="yml variable">
+               get:
+              </code>
+             </div>
+             <div class="line number9 index8 alt2" data-bidi-marker="true">
+              <code class="yml spaces">
+              </code>
+              <code class="yml plain">
+               ...
+              </code>
+             </div>
+            </div>
+           </td>
+          </tr>
+         </tbody>
+        </table>
+       </div>
+      </div>
+     </div>
+    </div>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <code>
+     paths.[
+     <path>
+      ]
+     </path>
+    </code>
+   </td>
+   <td>
+    <code>
+     remove-path
+    </code>
+   </td>
+   <td>
+    remove path with all method under this path
+   </td>
+   <td>
+    <code>
+     1 2 3 4 5 6 7 8 9
+    </code>
+   </td>
+   <td>
+    <code>
+     <div class="container" title="Hint: double-click to select code">
+      <div class="line number1 index0 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        openapi:
+       </code>
+       <code class="yml plain">
+        3.0
+       </code>
+      </div>
+      <div class="line number2 index1 alt1" data-bidi-marker="true">
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+      <div class="line number3 index2 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        paths:
+       </code>
+      </div>
+      <div class="line number4 index3 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        /pets
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number5 index4 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        post:
+       </code>
+      </div>
+      <div class="line number6 index5 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+      <div class="line number7 index6 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        /petstore
+       </code>
+      </div>
+      <div class="line number8 index7 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        get:
+       </code>
+      </div>
+      <div class="line number9 index8 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+     </div>
+    </code>
+   </td>
+   <td>
+    <div class="content-wrapper">
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        before
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_599407">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+             <div class="line number9 index8 alt2">
+              9
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /petstore
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                get:
+               </code>
+              </div>
+              <div class="line number9 index8 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+     <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+      <b class="code-title">
+       after
+      </b>
+      <span class="collapse-source expand-control" style="">
+       <span class="expand-control-icon icon">
+       </span>
+       <span class="expand-control-text">
+        Expand source
+       </span>
+      </span>
+     </div>
+     <div class="codeContent panelContent pdl hide-toolbar">
+      <div>
+       <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_734483">
+        <div class="toolbar">
+         <span>
+          <a class="toolbar_item command_expandSource expandSource" href="#">
+           expand source
+          </a>
+         </span>
+         <span>
+          <a class="toolbar_item command_help help" href="#">
+           ?
+          </a>
+         </span>
+        </div>
+        <table border="0" cellpadding="0" cellspacing="0">
+         <tbody>
+          <tr>
+           <td class="gutter">
+            <div class="line number1 index0 alt2">
+             1
+            </div>
+            <div class="line number2 index1 alt1">
+             2
+            </div>
+            <div class="line number3 index2 alt2">
+             3
+            </div>
+            <div class="line number4 index3 alt1">
+             4
+            </div>
+            <div class="line number5 index4 alt2">
+             5
+            </div>
+            <div class="line number6 index5 alt1">
+             6
+            </div>
+           </td>
+           <td class="code">
+            <div class="container" title="Hint: double-click to select code">
+             <div class="line number1 index0 alt2" data-bidi-marker="true">
+              <code class="yml variable">
+               openapi:
+              </code>
+              <code class="yml plain">
+               3.0
+              </code>
+             </div>
+             <div class="line number2 index1 alt1" data-bidi-marker="true">
+              <code class="yml plain">
+               ...
+              </code>
+             </div>
+             <div class="line number3 index2 alt2" data-bidi-marker="true">
+              <code class="yml variable">
+               paths:
+              </code>
+             </div>
+             <div class="line number4 index3 alt1" data-bidi-marker="true">
+              <code class="yml spaces">
+              </code>
+              <code class="yml plain">
+               /pets
+              </code>
+              <code class="yml constants">
+               :
+              </code>
+             </div>
+             <div class="line number5 index4 alt2" data-bidi-marker="true">
+              <code class="yml spaces">
+              </code>
+              <code class="yml variable">
+               post:
+              </code>
+             </div>
+             <div class="line number6 index5 alt1" data-bidi-marker="true">
+              <code class="yml spaces">
+              </code>
+              <code class="yml plain">
+               ...
+              </code>
+             </div>
+            </div>
+           </td>
+          </tr>
+         </tbody>
+        </table>
+       </div>
+      </div>
+     </div>
+    </div>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <code>
+     paths.[*].[
+     <method>
+      ]
+     </method>
+    </code>
+   </td>
+   <td>
+    <code>
+     add-new-method
+    </code>
+   </td>
+   <td>
+    add any method
+   </td>
+   <td>
+    <code>
+     1 2 3 4 5 6
+    </code>
+   </td>
+   <td>
+    <code>
+     <div class="container" title="Hint: double-click to select code">
+      <div class="line number1 index0 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        openapi:
+       </code>
+       <code class="yml plain">
+        3.0
+       </code>
+      </div>
+      <div class="line number2 index1 alt1" data-bidi-marker="true">
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+      <div class="line number3 index2 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        paths:
+       </code>
+      </div>
+      <div class="line number4 index3 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        /pets
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number5 index4 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        post:
+       </code>
+      </div>
+      <div class="line number6 index5 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+     </div>
+    </code>
+   </td>
+   <td>
+    <div class="content-wrapper">
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        before
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_619605">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        after
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_21369">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                get:
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <code>
+     paths.[*].[
+     <method>
+      ]
+     </method>
+    </code>
+   </td>
+   <td>
+    <code>
+     remove-method
+    </code>
+   </td>
+   <td>
+    remove (non deprecated) method
+   </td>
+   <td>
+    <code>
+     1 2 3 4 5 6 7 8
+    </code>
+   </td>
+   <td>
+    <code>
+     <div class="container" title="Hint: double-click to select code">
+      <div class="line number1 index0 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        openapi:
+       </code>
+       <code class="yml plain">
+        3.0
+       </code>
+      </div>
+      <div class="line number2 index1 alt1" data-bidi-marker="true">
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+      <div class="line number3 index2 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        paths:
+       </code>
+      </div>
+      <div class="line number4 index3 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        /pets
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number5 index4 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        post:
+       </code>
+      </div>
+      <div class="line number6 index5 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+      <div class="line number7 index6 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        get:
+       </code>
+      </div>
+      <div class="line number8 index7 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+     </div>
+    </code>
+   </td>
+   <td>
+    <div class="content-wrapper">
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        before
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_408797">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                get:
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        after
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_294483">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <code>
+     paths.[*].[*].tags.
+     <value>
+     </value>
+    </code>
+   </td>
+   <td>
+    <code>
+     add-tag
+    </code>
+   </td>
+   <td>
+   </td>
+   <td>
+    <code>
+     1 2 3 4 5 6 7
+    </code>
+   </td>
+   <td>
+    <code>
+     <div class="container" title="Hint: double-click to select code">
+      <div class="line number1 index0 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        openapi:
+       </code>
+       <code class="yml plain">
+        3.0
+       </code>
+      </div>
+      <div class="line number2 index1 alt1" data-bidi-marker="true">
+       <code class="yml variable">
+        tags:
+       </code>
+      </div>
+      <div class="line number3 index2 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml string bold">
+        -
+       </code>
+       <code class="yml plain">
+        name
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+       <code class="yml plain">
+        tag1
+       </code>
+      </div>
+      <div class="line number4 index3 alt1" data-bidi-marker="true">
+       <code class="yml variable">
+        paths:
+       </code>
+      </div>
+      <div class="line number5 index4 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        /pets
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number6 index5 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        post:
+       </code>
+      </div>
+      <div class="line number7 index6 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+     </div>
+    </code>
+   </td>
+   <td>
+    <div class="content-wrapper">
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        before
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_171708">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml variable">
+                tags:
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string bold">
+                -
+               </code>
+               <code class="yml plain">
+                name
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml plain">
+                tag1
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        after
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_344480">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+             <div class="line number9 index8 alt2">
+              9
+             </div>
+             <div class="line number10 index9 alt1">
+              10
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml variable">
+                tags:
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string bold">
+                -
+               </code>
+               <code class="yml plain">
+                name
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml plain">
+                tag1
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                tags:
+               </code>
+              </div>
+              <div class="line number9 index8 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string bold">
+                -
+               </code>
+               <code class="yml plain">
+                tag1
+               </code>
+              </div>
+              <div class="line number10 index9 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <code>
+     paths.[*].[*].tags.
+     <value>
+     </value>
+    </code>
+   </td>
+   <td>
+    <code>
+     remove-tag
+    </code>
+   </td>
+   <td>
+   </td>
+   <td>
+    <code>
+     1 2 3 4 5 6 7 8 9 10 11 12
+    </code>
+   </td>
+   <td>
+    <code>
+     <div class="container" title="Hint: double-click to select code">
+      <div class="line number1 index0 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        openapi:
+       </code>
+       <code class="yml plain">
+        3.0
+       </code>
+      </div>
+      <div class="line number2 index1 alt1" data-bidi-marker="true">
+       <code class="yml variable">
+        tags:
+       </code>
+      </div>
+      <div class="line number3 index2 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml string bold">
+        -
+       </code>
+       <code class="yml plain">
+        name
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+       <code class="yml plain">
+        tag1
+       </code>
+      </div>
+      <div class="line number4 index3 alt1" data-bidi-marker="true">
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+      <div class="line number5 index4 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        paths:
+       </code>
+      </div>
+      <div class="line number6 index5 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        /pets
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number7 index6 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        post:
+       </code>
+      </div>
+      <div class="line number8 index7 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        tags:
+       </code>
+      </div>
+      <div class="line number9 index8 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml string bold">
+        -
+       </code>
+       <code class="yml plain">
+        tag1
+       </code>
+      </div>
+      <div class="line number10 index9 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        responses:
+       </code>
+      </div>
+      <div class="line number11 index10 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml string">
+        '200'
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number12 index11 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        description:
+       </code>
+       <code class="yml plain">
+        OK
+       </code>
+      </div>
+     </div>
+    </code>
+   </td>
+   <td>
+    <div class="content-wrapper">
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        before
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_25940">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+             <div class="line number9 index8 alt2">
+              9
+             </div>
+             <div class="line number10 index9 alt1">
+              10
+             </div>
+             <div class="line number11 index10 alt2">
+              11
+             </div>
+             <div class="line number12 index11 alt1">
+              12
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml variable">
+                tags:
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string bold">
+                -
+               </code>
+               <code class="yml plain">
+                name
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml plain">
+                tag1
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                tags:
+               </code>
+              </div>
+              <div class="line number9 index8 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string bold">
+                -
+               </code>
+               <code class="yml plain">
+                tag1
+               </code>
+              </div>
+              <div class="line number10 index9 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                responses:
+               </code>
+              </div>
+              <div class="line number11 index10 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string">
+                '200'
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number12 index11 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                description:
+               </code>
+               <code class="yml plain">
+                OK
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        after
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_207057">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+             <div class="line number9 index8 alt2">
+              9
+             </div>
+             <div class="line number10 index9 alt1">
+              10
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml variable">
+                tags:
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string bold">
+                -
+               </code>
+               <code class="yml plain">
+                name
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml plain">
+                tag1
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                responses:
+               </code>
+              </div>
+              <div class="line number9 index8 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string">
+                '200'
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number10 index9 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                description:
+               </code>
+               <code class="yml plain">
+                OK
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <code>
+     paths.[*].[*].tags.
+     <value>
+     </value>
+    </code>
+   </td>
+   <td>
+    <code>
+     add-custom-property-in-operation
+    </code>
+   </td>
+   <td>
+    OAS extensions , ER is applicable to any type of extension value - a
+            primitive, an array, an object or null
+   </td>
+   <td>
+    <code>
+     1 2 3 4 5 6 7 8
+    </code>
+   </td>
+   <td>
+    <code>
+     <div class="container" title="Hint: double-click to select code">
+      <div class="line number1 index0 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        openapi:
+       </code>
+       <code class="yml plain">
+        3.0.0
+       </code>
+      </div>
+      <div class="line number2 index1 alt1" data-bidi-marker="true">
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+      <div class="line number3 index2 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        paths:
+       </code>
+      </div>
+      <div class="line number4 index3 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        /pets
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number5 index4 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        get:
+       </code>
+      </div>
+      <div class="line number6 index5 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        responses:
+       </code>
+      </div>
+      <div class="line number7 index6 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml string">
+        '200'
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number8 index7 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        description:
+       </code>
+       <code class="yml plain">
+        OK
+       </code>
+      </div>
+     </div>
+    </code>
+   </td>
+   <td>
+    <div class="content-wrapper" title="">
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        before
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_514620">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                get:
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                responses:
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string">
+                '200'
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                description:
+               </code>
+               <code class="yml plain">
+                OK
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        after
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_515639">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+             <div class="line number9 index8 alt2">
+              9
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                get:
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                x-internal-use:
+               </code>
+               <code class="yml constants">
+                false
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                responses:
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string">
+                '200'
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number9 index8 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                description:
+               </code>
+               <code class="yml plain">
+                OK
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <code>
+     paths.[*].[*].tags.
+     <value>
+     </value>
+    </code>
+   </td>
+   <td>
+    <code>
+     update-custom-property-value-in-operation
+    </code>
+   </td>
+   <td>
+    OAS extensions , ER is applicable to any type of extension value - a
+            primitive, an array, an object or null
+   </td>
+   <td>
+    <code>
+     1 2 3 4 5 6 7 8 9
+    </code>
+   </td>
+   <td>
+    <code>
+     <div class="container" title="Hint: double-click to select code">
+      <div class="line number1 index0 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        openapi:
+       </code>
+       <code class="yml plain">
+        3.0.0
+       </code>
+      </div>
+      <div class="line number2 index1 alt1" data-bidi-marker="true">
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+      <div class="line number3 index2 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        paths:
+       </code>
+      </div>
+      <div class="line number4 index3 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        /pets
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number5 index4 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        get:
+       </code>
+      </div>
+      <div class="line number6 index5 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        x-internal-use:
+       </code>
+       <code class="yml constants">
+        false
+       </code>
+      </div>
+      <div class="line number7 index6 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        responses:
+       </code>
+      </div>
+      <div class="line number8 index7 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml string">
+        '200'
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number9 index8 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        description:
+       </code>
+       <code class="yml plain">
+        OK
+       </code>
+      </div>
+     </div>
+    </code>
+   </td>
+   <td>
+    <div class="content-wrapper" title="">
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        before
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_60355">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+             <div class="line number9 index8 alt2">
+              9
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                get:
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                x-internal-use:
+               </code>
+               <code class="yml constants">
+                false
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                responses:
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string">
+                '200'
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number9 index8 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                description:
+               </code>
+               <code class="yml plain">
+                OK
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        after
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_584339">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+             <div class="line number9 index8 alt2">
+              9
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                get:
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                x-internal-use:
+               </code>
+               <code class="yml constants">
+                true
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                responses:
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string">
+                '200'
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number9 index8 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                description:
+               </code>
+               <code class="yml plain">
+                OK
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <code>
+     paths.[*].[*].tags.
+     <value>
+     </value>
+    </code>
+   </td>
+   <td>
+    <code>
+     remove-custom-property-in-operation
+    </code>
+   </td>
+   <td>
+    OAS extensions , ER is applicable to any type of extension value - a
+            primitive, an array, an object or null
+   </td>
+   <td>
+    <code>
+     1 2 3 4 5 6 7 8 9
+    </code>
+   </td>
+   <td>
+    <code>
+     <div class="container" title="Hint: double-click to select code">
+      <div class="line number1 index0 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        openapi:
+       </code>
+       <code class="yml plain">
+        3.0.0
+       </code>
+      </div>
+      <div class="line number2 index1 alt1" data-bidi-marker="true">
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+      <div class="line number3 index2 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        paths:
+       </code>
+      </div>
+      <div class="line number4 index3 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        /pets
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number5 index4 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        get:
+       </code>
+      </div>
+      <div class="line number6 index5 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        x-internal-use:
+       </code>
+       <code class="yml constants">
+        false
+       </code>
+      </div>
+      <div class="line number7 index6 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        responses:
+       </code>
+      </div>
+      <div class="line number8 index7 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml string">
+        '200'
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number9 index8 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        description:
+       </code>
+       <code class="yml plain">
+        OK
+       </code>
+      </div>
+     </div>
+    </code>
+   </td>
+   <td>
+    <div class="content-wrapper" title="">
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        before
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_535330">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+             <div class="line number9 index8 alt2">
+              9
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                get:
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                x-internal-use:
+               </code>
+               <code class="yml constants">
+                false
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                responses:
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string">
+                '200'
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number9 index8 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                description:
+               </code>
+               <code class="yml plain">
+                OK
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        after
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_978398">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                get:
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                responses:
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string">
+                '200'
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                description:
+               </code>
+               <code class="yml plain">
+                OK
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <code>
+     paths.[*].[*].tags.
+     <value>
+     </value>
+    </code>
+   </td>
+   <td>
+    <code>
+     add-objects-custom-property-in-operation
+    </code>
+   </td>
+   <td>
+    OAS extensions , ER is applicable to any type of extension value - a
+            primitive, an array, an object or null
+   </td>
+   <td>
+    <code>
+     1 2 3 4 5 6 7 8 9 10
+    </code>
+   </td>
+   <td>
+    <code>
+     <div class="container" title="Hint: double-click to select code">
+      <div class="line number1 index0 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        openapi:
+       </code>
+       <code class="yml plain">
+        3.0.0
+       </code>
+      </div>
+      <div class="line number2 index1 alt1" data-bidi-marker="true">
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+      <div class="line number3 index2 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        paths:
+       </code>
+      </div>
+      <div class="line number4 index3 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        /pets
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number5 index4 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        get:
+       </code>
+      </div>
+      <div class="line number6 index5 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        x-internal-use-reason:
+       </code>
+      </div>
+      <div class="line number7 index6 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        reason:
+       </code>
+       <code class="yml plain">
+        internal
+       </code>
+      </div>
+      <div class="line number8 index7 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        responses:
+       </code>
+      </div>
+      <div class="line number9 index8 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml string">
+        '200'
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number10 index9 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        description:
+       </code>
+       <code class="yml plain">
+        OK
+       </code>
+      </div>
+     </div>
+    </code>
+   </td>
+   <td>
+    <div class="content-wrapper" title="">
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        after
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_665943">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+             <div class="line number9 index8 alt2">
+              9
+             </div>
+             <div class="line number10 index9 alt1">
+              10
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                get:
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                x-internal-use-reason:
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                reason:
+               </code>
+               <code class="yml plain">
+                internal
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                responses:
+               </code>
+              </div>
+              <div class="line number9 index8 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string">
+                '200'
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number10 index9 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                description:
+               </code>
+               <code class="yml plain">
+                OK
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        after
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_57452">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+             <div class="line number9 index8 alt2">
+              9
+             </div>
+             <div class="line number10 index9 alt1">
+              10
+             </div>
+             <div class="line number11 index10 alt2">
+              11
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                get:
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                x-internal-use-reason:
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                reason:
+               </code>
+               <code class="yml plain">
+                internal
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                release:
+               </code>
+               <code class="yml plain">
+                2022.1
+               </code>
+              </div>
+              <div class="line number9 index8 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                responses:
+               </code>
+              </div>
+              <div class="line number10 index9 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string">
+                '200'
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number11 index10 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                description:
+               </code>
+               <code class="yml plain">
+                OK
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <code>
+     paths.[*].[*].tags.
+     <value>
+     </value>
+    </code>
+   </td>
+   <td>
+    <code>
+     update-objects-custom-property-value-in-operation
+    </code>
+   </td>
+   <td>
+    OAS extensions , ER is applicable to any type of extension value - a
+            primitive, an array, an object or null
+   </td>
+   <td>
+    <code>
+     1 2 3 4 5 6 7 8 9 10
+    </code>
+   </td>
+   <td>
+    <code>
+     <div class="container" title="Hint: double-click to select code">
+      <div class="line number1 index0 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        openapi:
+       </code>
+       <code class="yml plain">
+        3.0.0
+       </code>
+      </div>
+      <div class="line number2 index1 alt1" data-bidi-marker="true">
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+      <div class="line number3 index2 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        paths:
+       </code>
+      </div>
+      <div class="line number4 index3 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        /pets
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number5 index4 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        get:
+       </code>
+      </div>
+      <div class="line number6 index5 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        x-internal-use-reason:
+       </code>
+      </div>
+      <div class="line number7 index6 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        reason:
+       </code>
+       <code class="yml plain">
+        no usages
+       </code>
+      </div>
+      <div class="line number8 index7 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        responses:
+       </code>
+      </div>
+      <div class="line number9 index8 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml string">
+        '200'
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number10 index9 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        description:
+       </code>
+       <code class="yml plain">
+        OK
+       </code>
+      </div>
+     </div>
+    </code>
+   </td>
+   <td>
+    <div class="content-wrapper" title="">
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        after
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_374056">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+             <div class="line number9 index8 alt2">
+              9
+             </div>
+             <div class="line number10 index9 alt1">
+              10
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                get:
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                x-internal-use-reason:
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                reason:
+               </code>
+               <code class="yml plain">
+                no usages
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                responses:
+               </code>
+              </div>
+              <div class="line number9 index8 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string">
+                '200'
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number10 index9 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                description:
+               </code>
+               <code class="yml plain">
+                OK
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        after
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_145512">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+             <div class="line number9 index8 alt2">
+              9
+             </div>
+             <div class="line number10 index9 alt1">
+              10
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                get:
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                x-internal-use-reason:
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                reason:
+               </code>
+               <code class="yml plain">
+                internal
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                responses:
+               </code>
+              </div>
+              <div class="line number9 index8 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string">
+                '200'
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number10 index9 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                description:
+               </code>
+               <code class="yml plain">
+                OK
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <code>
+     paths.[*].[*].tags.
+     <value>
+     </value>
+    </code>
+   </td>
+   <td>
+    <code>
+     remove-objects-custom-property-in-operation
+    </code>
+   </td>
+   <td>
+    OAS extensions , ER is applicable to any type of extension value - a
+            primitive, an array, an object or null
+   </td>
+   <td>
+    <code>
+     1 2 3 4 5 6 7 8 9 10 11
+    </code>
+   </td>
+   <td>
+    <code>
+     <div class="container" title="Hint: double-click to select code">
+      <div class="line number1 index0 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        openapi:
+       </code>
+       <code class="yml plain">
+        3.0.0
+       </code>
+      </div>
+      <div class="line number2 index1 alt1" data-bidi-marker="true">
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+      <div class="line number3 index2 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        paths:
+       </code>
+      </div>
+      <div class="line number4 index3 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        /pets
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number5 index4 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        get:
+       </code>
+      </div>
+      <div class="line number6 index5 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        x-internal-use-reason:
+       </code>
+      </div>
+      <div class="line number7 index6 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        reason:
+       </code>
+       <code class="yml plain">
+        internal
+       </code>
+      </div>
+      <div class="line number8 index7 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        release:
+       </code>
+       <code class="yml plain">
+        2022.1
+       </code>
+      </div>
+      <div class="line number9 index8 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        responses:
+       </code>
+      </div>
+      <div class="line number10 index9 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml string">
+        '200'
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number11 index10 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        description:
+       </code>
+       <code class="yml plain">
+        OK
+       </code>
+      </div>
+     </div>
+    </code>
+   </td>
+   <td>
+    <div class="content-wrapper">
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        after
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_216522">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+             <div class="line number9 index8 alt2">
+              9
+             </div>
+             <div class="line number10 index9 alt1">
+              10
+             </div>
+             <div class="line number11 index10 alt2">
+              11
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                get:
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                x-internal-use-reason:
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                reason:
+               </code>
+               <code class="yml plain">
+                internal
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                release:
+               </code>
+               <code class="yml plain">
+                2022.1
+               </code>
+              </div>
+              <div class="line number9 index8 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                responses:
+               </code>
+              </div>
+              <div class="line number10 index9 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string">
+                '200'
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number11 index10 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                description:
+               </code>
+               <code class="yml plain">
+                OK
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        after
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_277522">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+             <div class="line number9 index8 alt2">
+              9
+             </div>
+             <div class="line number10 index9 alt1">
+              10
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                get:
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                x-internal-use-reason:
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                reason:
+               </code>
+               <code class="yml plain">
+                internal
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                responses:
+               </code>
+              </div>
+              <div class="line number9 index8 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string">
+                '200'
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number10 index9 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                description:
+               </code>
+               <code class="yml plain">
+                OK
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <code>
+     paths.[*].[*].tags. [*]
+    </code>
+   </td>
+   <td>
+    <code>
+     add-custom-property-in-tag
+    </code>
+   </td>
+   <td>
+    OAS extensions , ER shall not depend on extension value - a primitive, an array, an object or null
+   </td>
+   <td>
+    <code>
+     1 2 3 4 5 6 7 8 9 10 11 12 13
+    </code>
+   </td>
+   <td>
+    <code>
+     <div class="container" title="Hint: double-click to select code">
+      <div class="line number1 index0 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        openapi:
+       </code>
+       <code class="yml plain">
+        3.0.0
+       </code>
+      </div>
+      <div class="line number2 index1 alt1" data-bidi-marker="true">
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+      <div class="line number3 index2 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        tags:
+       </code>
+      </div>
+      <div class="line number4 index3 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml string bold">
+        -
+       </code>
+       <code class="yml plain">
+        name
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+       <code class="yml plain">
+        pets
+       </code>
+      </div>
+      <div class="line number5 index4 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        description:
+       </code>
+       <code class="yml plain">
+        Operations related to pets
+       </code>
+      </div>
+      <div class="line number6 index5 alt1" data-bidi-marker="true">
+       <code class="yml variable">
+        paths:
+       </code>
+      </div>
+      <div class="line number7 index6 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        /pets
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number8 index7 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        get:
+       </code>
+      </div>
+      <div class="line number9 index8 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        tags:
+       </code>
+      </div>
+      <div class="line number10 index9 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml string bold">
+        -
+       </code>
+       <code class="yml plain">
+        pets
+       </code>
+      </div>
+      <div class="line number11 index10 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        responses:
+       </code>
+      </div>
+      <div class="line number12 index11 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml string">
+        '200'
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number13 index12 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        description:
+       </code>
+       <code class="yml plain">
+        OK
+       </code>
+      </div>
+     </div>
+    </code>
+   </td>
+   <td>
+    <div class="content-wrapper" title="">
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        before
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_30637">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+             <div class="line number9 index8 alt2">
+              9
+             </div>
+             <div class="line number10 index9 alt1">
+              10
+             </div>
+             <div class="line number11 index10 alt2">
+              11
+             </div>
+             <div class="line number12 index11 alt1">
+              12
+             </div>
+             <div class="line number13 index12 alt2">
+              13
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                tags:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string bold">
+                -
+               </code>
+               <code class="yml plain">
+                name
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml plain">
+                pets
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                description:
+               </code>
+               <code class="yml plain">
+                Operations related to pets
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                get:
+               </code>
+              </div>
+              <div class="line number9 index8 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                tags:
+               </code>
+              </div>
+              <div class="line number10 index9 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string bold">
+                -
+               </code>
+               <code class="yml plain">
+                pets
+               </code>
+              </div>
+              <div class="line number11 index10 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                responses:
+               </code>
+              </div>
+              <div class="line number12 index11 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string">
+                '200'
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number13 index12 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                description:
+               </code>
+               <code class="yml plain">
+                OK
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        after
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_228432">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+             <div class="line number9 index8 alt2">
+              9
+             </div>
+             <div class="line number10 index9 alt1">
+              10
+             </div>
+             <div class="line number11 index10 alt2">
+              11
+             </div>
+             <div class="line number12 index11 alt1">
+              12
+             </div>
+             <div class="line number13 index12 alt2">
+              13
+             </div>
+             <div class="line number14 index13 alt1">
+              14
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                tags:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string bold">
+                -
+               </code>
+               <code class="yml plain">
+                name
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml plain">
+                pets
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                description:
+               </code>
+               <code class="yml plain">
+                Operations related to pets
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                x-priority:
+               </code>
+               <code class="yml plain">
+                high
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number9 index8 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                get:
+               </code>
+              </div>
+              <div class="line number10 index9 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                tags:
+               </code>
+              </div>
+              <div class="line number11 index10 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string bold">
+                -
+               </code>
+               <code class="yml plain">
+                pets
+               </code>
+              </div>
+              <div class="line number12 index11 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                responses:
+               </code>
+              </div>
+              <div class="line number13 index12 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string">
+                '200'
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number14 index13 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                description:
+               </code>
+               <code class="yml plain">
+                OK
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <code>
+     paths.[*].[*].tags. [*]
+    </code>
+   </td>
+   <td>
+    <code>
+     update-custom-property-value-in-tag
+    </code>
+   </td>
+   <td>
+    OAS extensions , ER shall not depend on extension value - a primitive, an array, an object or null
+   </td>
+   <td>
+    <code>
+     1 2 3 4 5 6 7 8 9 10 11 12 13 14
+    </code>
+   </td>
+   <td>
+    <code>
+     <div class="container" title="Hint: double-click to select code">
+      <div class="line number1 index0 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        openapi:
+       </code>
+       <code class="yml plain">
+        3.0.0
+       </code>
+      </div>
+      <div class="line number2 index1 alt1" data-bidi-marker="true">
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+      <div class="line number3 index2 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        tags:
+       </code>
+      </div>
+      <div class="line number4 index3 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml string bold">
+        -
+       </code>
+       <code class="yml plain">
+        name
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+       <code class="yml plain">
+        pets
+       </code>
+      </div>
+      <div class="line number5 index4 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        description:
+       </code>
+       <code class="yml plain">
+        Operations related to pets
+       </code>
+      </div>
+      <div class="line number6 index5 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        x-priority:
+       </code>
+       <code class="yml plain">
+        high
+       </code>
+      </div>
+      <div class="line number7 index6 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        paths:
+       </code>
+      </div>
+      <div class="line number8 index7 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        /pets
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number9 index8 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        get:
+       </code>
+      </div>
+      <div class="line number10 index9 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        tags:
+       </code>
+      </div>
+      <div class="line number11 index10 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml string bold">
+        -
+       </code>
+       <code class="yml plain">
+        pets
+       </code>
+      </div>
+      <div class="line number12 index11 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        responses:
+       </code>
+      </div>
+      <div class="line number13 index12 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml string">
+        '200'
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number14 index13 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        description:
+       </code>
+       <code class="yml plain">
+        OK
+       </code>
+      </div>
+     </div>
+    </code>
+   </td>
+   <td>
+    <div class="content-wrapper">
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        before
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_788847">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+             <div class="line number9 index8 alt2">
+              9
+             </div>
+             <div class="line number10 index9 alt1">
+              10
+             </div>
+             <div class="line number11 index10 alt2">
+              11
+             </div>
+             <div class="line number12 index11 alt1">
+              12
+             </div>
+             <div class="line number13 index12 alt2">
+              13
+             </div>
+             <div class="line number14 index13 alt1">
+              14
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                tags:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string bold">
+                -
+               </code>
+               <code class="yml plain">
+                name
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml plain">
+                pets
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                description:
+               </code>
+               <code class="yml plain">
+                Operations related to pets
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                x-priority:
+               </code>
+               <code class="yml plain">
+                high
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number9 index8 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                get:
+               </code>
+              </div>
+              <div class="line number10 index9 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                tags:
+               </code>
+              </div>
+              <div class="line number11 index10 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string bold">
+                -
+               </code>
+               <code class="yml plain">
+                pets
+               </code>
+              </div>
+              <div class="line number12 index11 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                responses:
+               </code>
+              </div>
+              <div class="line number13 index12 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string">
+                '200'
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number14 index13 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                description:
+               </code>
+               <code class="yml plain">
+                OK
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        after
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_626527">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+             <div class="line number9 index8 alt2">
+              9
+             </div>
+             <div class="line number10 index9 alt1">
+              10
+             </div>
+             <div class="line number11 index10 alt2">
+              11
+             </div>
+             <div class="line number12 index11 alt1">
+              12
+             </div>
+             <div class="line number13 index12 alt2">
+              13
+             </div>
+             <div class="line number14 index13 alt1">
+              14
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                tags:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string bold">
+                -
+               </code>
+               <code class="yml plain">
+                name
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml plain">
+                pets
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                description:
+               </code>
+               <code class="yml plain">
+                Operations related to pets
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                x-priority:
+               </code>
+               <code class="yml plain">
+                medium
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number9 index8 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                get:
+               </code>
+              </div>
+              <div class="line number10 index9 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                tags:
+               </code>
+              </div>
+              <div class="line number11 index10 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string bold">
+                -
+               </code>
+               <code class="yml plain">
+                pets
+               </code>
+              </div>
+              <div class="line number12 index11 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                responses:
+               </code>
+              </div>
+              <div class="line number13 index12 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string">
+                '200'
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number14 index13 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                description:
+               </code>
+               <code class="yml plain">
+                OK
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <code>
+     paths.[*].[*].tags. [*]
+    </code>
+   </td>
+   <td>
+    <code>
+     remove-custom-property-in-tag
+    </code>
+   </td>
+   <td>
+    OAS extensions , ER shall not depend on extension value - a primitive, an array, an object or null
+   </td>
+   <td>
+    <code>
+     1 2 3 4 5 6 7 8 9 10 11 12 13 14
+    </code>
+   </td>
+   <td>
+    <code>
+     <div class="container" title="Hint: double-click to select code">
+      <div class="line number1 index0 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        openapi:
+       </code>
+       <code class="yml plain">
+        3.0.0
+       </code>
+      </div>
+      <div class="line number2 index1 alt1" data-bidi-marker="true">
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+      <div class="line number3 index2 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        tags:
+       </code>
+      </div>
+      <div class="line number4 index3 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml string bold">
+        -
+       </code>
+       <code class="yml plain">
+        name
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+       <code class="yml plain">
+        pets
+       </code>
+      </div>
+      <div class="line number5 index4 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        description:
+       </code>
+       <code class="yml plain">
+        Operations related to pets
+       </code>
+      </div>
+      <div class="line number6 index5 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        x-priority:
+       </code>
+       <code class="yml plain">
+        high
+       </code>
+      </div>
+      <div class="line number7 index6 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        paths:
+       </code>
+      </div>
+      <div class="line number8 index7 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        /pets
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number9 index8 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        get:
+       </code>
+      </div>
+      <div class="line number10 index9 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        tags:
+       </code>
+      </div>
+      <div class="line number11 index10 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml string bold">
+        -
+       </code>
+       <code class="yml plain">
+        pets
+       </code>
+      </div>
+      <div class="line number12 index11 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        responses:
+       </code>
+      </div>
+      <div class="line number13 index12 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml string">
+        '200'
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number14 index13 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        description:
+       </code>
+       <code class="yml plain">
+        OK
+       </code>
+      </div>
+     </div>
+    </code>
+   </td>
+   <td>
+    <div class="content-wrapper">
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        before
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_938236">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+             <div class="line number9 index8 alt2">
+              9
+             </div>
+             <div class="line number10 index9 alt1">
+              10
+             </div>
+             <div class="line number11 index10 alt2">
+              11
+             </div>
+             <div class="line number12 index11 alt1">
+              12
+             </div>
+             <div class="line number13 index12 alt2">
+              13
+             </div>
+             <div class="line number14 index13 alt1">
+              14
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                tags:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string bold">
+                -
+               </code>
+               <code class="yml plain">
+                name
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml plain">
+                pets
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                description:
+               </code>
+               <code class="yml plain">
+                Operations related to pets
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                x-priority:
+               </code>
+               <code class="yml plain">
+                high
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number9 index8 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                get:
+               </code>
+              </div>
+              <div class="line number10 index9 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                tags:
+               </code>
+              </div>
+              <div class="line number11 index10 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string bold">
+                -
+               </code>
+               <code class="yml plain">
+                pets
+               </code>
+              </div>
+              <div class="line number12 index11 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                responses:
+               </code>
+              </div>
+              <div class="line number13 index12 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string">
+                '200'
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number14 index13 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                description:
+               </code>
+               <code class="yml plain">
+                OK
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        after
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_269058">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+             <div class="line number9 index8 alt2">
+              9
+             </div>
+             <div class="line number10 index9 alt1">
+              10
+             </div>
+             <div class="line number11 index10 alt2">
+              11
+             </div>
+             <div class="line number12 index11 alt1">
+              12
+             </div>
+             <div class="line number13 index12 alt2">
+              13
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                tags:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string bold">
+                -
+               </code>
+               <code class="yml plain">
+                name
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml plain">
+                pets
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                description:
+               </code>
+               <code class="yml plain">
+                Operations related to pets
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                get:
+               </code>
+              </div>
+              <div class="line number9 index8 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                tags:
+               </code>
+              </div>
+              <div class="line number10 index9 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string bold">
+                -
+               </code>
+               <code class="yml plain">
+                pets
+               </code>
+              </div>
+              <div class="line number11 index10 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                responses:
+               </code>
+              </div>
+              <div class="line number12 index11 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string">
+                '200'
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number13 index12 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                description:
+               </code>
+               <code class="yml plain">
+                OK
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <code>
+    </code>
+   </td>
+   <td>
+    <code>
+     add-custom-property-in-path
+    </code>
+   </td>
+   <td>
+    OAS extensions , ER is applicable to any type of extension value - a
+            primitive, an array, an object or null
+   </td>
+   <td>
+    <code>
+     1 2 3 4 5 6 7 8
+    </code>
+   </td>
+   <td>
+    <code>
+     <div class="container" title="Hint: double-click to select code">
+      <div class="line number1 index0 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        openapi:
+       </code>
+       <code class="yml plain">
+        3.0.0
+       </code>
+      </div>
+      <div class="line number2 index1 alt1" data-bidi-marker="true">
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+      <div class="line number3 index2 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        paths:
+       </code>
+      </div>
+      <div class="line number4 index3 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        /pets
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number5 index4 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        get:
+       </code>
+      </div>
+      <div class="line number6 index5 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        responses:
+       </code>
+      </div>
+      <div class="line number7 index6 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml string">
+        '200'
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number8 index7 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        description:
+       </code>
+       <code class="yml plain">
+        OK
+       </code>
+      </div>
+     </div>
+    </code>
+   </td>
+   <td>
+    <div class="content-wrapper" title="">
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        before
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_94015">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                get:
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                responses:
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string">
+                '200'
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                description:
+               </code>
+               <code class="yml plain">
+                OK
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        after
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_418577">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+             <div class="line number9 index8 alt2">
+              9
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                x-feature-flag:
+               </code>
+               <code class="yml string">
+                "v2-release"
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                get:
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                responses:
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string">
+                '200'
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number9 index8 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                description:
+               </code>
+               <code class="yml plain">
+                OK
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <code>
+    </code>
+   </td>
+   <td>
+    <code>
+     update-custom-property-value-in-path
+    </code>
+   </td>
+   <td>
+    OAS extensions , ER is applicable to any type of extension value - a
+            primitive, an array, an object or null
+   </td>
+   <td>
+    <code>
+     1 2 3 4 5 6 7 8 9
+    </code>
+   </td>
+   <td>
+    <code>
+     <div class="container" title="Hint: double-click to select code">
+      <div class="line number1 index0 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        openapi:
+       </code>
+       <code class="yml plain">
+        3.0.0
+       </code>
+      </div>
+      <div class="line number2 index1 alt1" data-bidi-marker="true">
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+      <div class="line number3 index2 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        paths:
+       </code>
+      </div>
+      <div class="line number4 index3 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        /pets
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number5 index4 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        x-feature-flag:
+       </code>
+       <code class="yml string">
+        "v2-release"
+       </code>
+      </div>
+      <div class="line number6 index5 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        get:
+       </code>
+      </div>
+      <div class="line number7 index6 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        responses:
+       </code>
+      </div>
+      <div class="line number8 index7 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml string">
+        '200'
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number9 index8 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        description:
+       </code>
+       <code class="yml plain">
+        OK
+       </code>
+      </div>
+     </div>
+    </code>
+   </td>
+   <td>
+    <div class="content-wrapper" title="">
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        before
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_830711">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+             <div class="line number9 index8 alt2">
+              9
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                x-feature-flag:
+               </code>
+               <code class="yml string">
+                "v2-release"
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                get:
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                responses:
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string">
+                '200'
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number9 index8 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                description:
+               </code>
+               <code class="yml plain">
+                OK
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        after
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_462363">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+             <div class="line number9 index8 alt2">
+              9
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                x-feature-flag:
+               </code>
+               <code class="yml string">
+                "v3-release"
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                get:
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                responses:
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string">
+                '200'
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number9 index8 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                description:
+               </code>
+               <code class="yml plain">
+                OK
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <code>
+    </code>
+   </td>
+   <td>
+    <code>
+     remove-custom-property-in-path
+    </code>
+   </td>
+   <td>
+    OAS extensions , ER is applicable to any type of extension value - a
+            primitive, an array, an object or null
+   </td>
+   <td>
+    <code>
+     1 2 3 4 5 6 7 8 9
+    </code>
+   </td>
+   <td>
+    <code>
+     <div class="container" title="Hint: double-click to select code">
+      <div class="line number1 index0 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        openapi:
+       </code>
+       <code class="yml plain">
+        3.0.0
+       </code>
+      </div>
+      <div class="line number2 index1 alt1" data-bidi-marker="true">
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+      <div class="line number3 index2 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        paths:
+       </code>
+      </div>
+      <div class="line number4 index3 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        /pets
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number5 index4 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        x-feature-flag:
+       </code>
+       <code class="yml string">
+        "v2-release"
+       </code>
+      </div>
+      <div class="line number6 index5 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        get:
+       </code>
+      </div>
+      <div class="line number7 index6 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        responses:
+       </code>
+      </div>
+      <div class="line number8 index7 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml string">
+        '200'
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number9 index8 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        description:
+       </code>
+       <code class="yml plain">
+        OK
+       </code>
+      </div>
+     </div>
+    </code>
+   </td>
+   <td>
+    <div class="content-wrapper" title="">
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        before
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_495332">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+             <div class="line number9 index8 alt2">
+              9
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                x-feature-flag:
+               </code>
+               <code class="yml string">
+                "v2-release"
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                get:
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                responses:
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string">
+                '200'
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number9 index8 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                description:
+               </code>
+               <code class="yml plain">
+                OK
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        before
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_88394">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                get:
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                responses:
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string">
+                '200'
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                description:
+               </code>
+               <code class="yml plain">
+                OK
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <code>
+     paths.[*].[*].summary.
+     <value>
+     </value>
+    </code>
+   </td>
+   <td>
+    <code>
+     update-operation-summary
+    </code>
+   </td>
+   <td>
+   </td>
+   <td>
+    <code>
+     1 2 3 4 5 6 7
+    </code>
+   </td>
+   <td>
+    <code>
+     <div class="container" title="Hint: double-click to select code">
+      <div class="line number1 index0 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        openapi:
+       </code>
+       <code class="yml plain">
+        3.0
+       </code>
+      </div>
+      <div class="line number2 index1 alt1" data-bidi-marker="true">
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+      <div class="line number3 index2 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        paths:
+       </code>
+      </div>
+      <div class="line number4 index3 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        /pets
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number5 index4 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        post:
+       </code>
+      </div>
+      <div class="line number6 index5 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        summary:
+       </code>
+       <code class="yml plain">
+        Create a new pet
+       </code>
+      </div>
+      <div class="line number7 index6 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+     </div>
+    </code>
+   </td>
+   <td>
+    <div class="content-wrapper">
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        before
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_669357">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                summary:
+               </code>
+               <code class="yml plain">
+                Create a new pet
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+     <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+      <b class="code-title">
+       after
+      </b>
+      <span class="collapse-source expand-control" style="">
+       <span class="expand-control-icon icon">
+       </span>
+       <span class="expand-control-text">
+        Expand source
+       </span>
+      </span>
+     </div>
+     <div class="codeContent panelContent pdl hide-toolbar">
+      <div>
+       <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_208693">
+        <div class="toolbar">
+         <span>
+          <a class="toolbar_item command_expandSource expandSource" href="#">
+           expand source
+          </a>
+         </span>
+         <span>
+          <a class="toolbar_item command_help help" href="#">
+           ?
+          </a>
+         </span>
+        </div>
+        <table border="0" cellpadding="0" cellspacing="0">
+         <tbody>
+          <tr>
+           <td class="gutter">
+            <div class="line number1 index0 alt2">
+             1
+            </div>
+            <div class="line number2 index1 alt1">
+             2
+            </div>
+            <div class="line number3 index2 alt2">
+             3
+            </div>
+            <div class="line number4 index3 alt1">
+             4
+            </div>
+            <div class="line number5 index4 alt2">
+             5
+            </div>
+            <div class="line number6 index5 alt1">
+             6
+            </div>
+            <div class="line number7 index6 alt2">
+             7
+            </div>
+           </td>
+           <td class="code">
+            <div class="container" title="Hint: double-click to select code">
+             <div class="line number1 index0 alt2" data-bidi-marker="true">
+              <code class="yml variable">
+               openapi:
+              </code>
+              <code class="yml plain">
+               3.0
+              </code>
+             </div>
+             <div class="line number2 index1 alt1" data-bidi-marker="true">
+              <code class="yml plain">
+               ...
+              </code>
+             </div>
+             <div class="line number3 index2 alt2" data-bidi-marker="true">
+              <code class="yml variable">
+               paths:
+              </code>
+             </div>
+             <div class="line number4 index3 alt1" data-bidi-marker="true">
+              <code class="yml spaces">
+              </code>
+              <code class="yml plain">
+               /pets
+              </code>
+              <code class="yml constants">
+               :
+              </code>
+             </div>
+             <div class="line number5 index4 alt2" data-bidi-marker="true">
+              <code class="yml spaces">
+              </code>
+              <code class="yml variable">
+               post:
+              </code>
+             </div>
+             <div class="line number6 index5 alt1" data-bidi-marker="true">
+              <code class="yml spaces">
+              </code>
+              <code class="yml variable">
+               summary:
+              </code>
+              <code class="yml plain">
+               new pet creation
+              </code>
+             </div>
+             <div class="line number7 index6 alt2" data-bidi-marker="true">
+              <code class="yml spaces">
+              </code>
+              <code class="yml plain">
+               ...
+              </code>
+             </div>
+            </div>
+           </td>
+          </tr>
+         </tbody>
+        </table>
+       </div>
+      </div>
+     </div>
+    </div>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <code>
+     paths.[*].[*].description.
+     <value>
+     </value>
+    </code>
+   </td>
+   <td>
+    <code>
+     add-operation-description
+    </code>
+   </td>
+   <td>
+   </td>
+   <td>
+    <code>
+     1 2 3 4 5 6 7
+    </code>
+   </td>
+   <td>
+    <code>
+     <div class="container" title="Hint: double-click to select code">
+      <div class="line number1 index0 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        openapi:
+       </code>
+       <code class="yml plain">
+        3.0
+       </code>
+      </div>
+      <div class="line number2 index1 alt1" data-bidi-marker="true">
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+      <div class="line number3 index2 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        paths:
+       </code>
+      </div>
+      <div class="line number4 index3 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        /pets
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number5 index4 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        post:
+       </code>
+      </div>
+      <div class="line number6 index5 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        summary:
+       </code>
+       <code class="yml plain">
+        Create a new pet
+       </code>
+      </div>
+      <div class="line number7 index6 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+     </div>
+    </code>
+   </td>
+   <td>
+    <div class="content-wrapper">
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        before
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_185378">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                summary:
+               </code>
+               <code class="yml plain">
+                Create a new pet
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        after
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_463601">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                summary:
+               </code>
+               <code class="yml plain">
+                Create a new pet
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                description:
+               </code>
+               <code class="yml plain">
+                This operation allows creating new
+                                    pet.
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <code>
+     paths.[*].[*].description.
+     <value>
+     </value>
+    </code>
+   </td>
+   <td>
+    <code>
+     update-operation-description
+    </code>
+   </td>
+   <td>
+   </td>
+   <td>
+    <code>
+     1 2 3 4 5 6 7 8
+    </code>
+   </td>
+   <td>
+    <code>
+     <div class="container" title="Hint: double-click to select code">
+      <div class="line number1 index0 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        openapi:
+       </code>
+       <code class="yml plain">
+        3.0
+       </code>
+      </div>
+      <div class="line number2 index1 alt1" data-bidi-marker="true">
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+      <div class="line number3 index2 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        paths:
+       </code>
+      </div>
+      <div class="line number4 index3 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        /pets
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number5 index4 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        post:
+       </code>
+      </div>
+      <div class="line number6 index5 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        summary:
+       </code>
+       <code class="yml plain">
+        Create a new pet
+       </code>
+      </div>
+      <div class="line number7 index6 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        description:
+       </code>
+       <code class="yml plain">
+        This operation allows creating new
+                                    pet.
+       </code>
+      </div>
+      <div class="line number8 index7 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+     </div>
+    </code>
+   </td>
+   <td>
+    <div class="content-wrapper">
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        before
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_357046">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                summary:
+               </code>
+               <code class="yml plain">
+                Create a new pet
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                description:
+               </code>
+               <code class="yml plain">
+                This operation allows creating new
+                                    pet.
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        after
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_928554">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                summary:
+               </code>
+               <code class="yml plain">
+                Create a new pet
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                description:
+               </code>
+               <code class="yml plain">
+                Operation for pet creation
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <code>
+     paths.[*].[*].description.
+     <value>
+     </value>
+    </code>
+   </td>
+   <td>
+    <code>
+     remove-operation-description
+    </code>
+   </td>
+   <td>
+   </td>
+   <td>
+    <code>
+     1 2 3 4 5 6 7 8
+    </code>
+   </td>
+   <td>
+    <code>
+     <div class="container" title="Hint: double-click to select code">
+      <div class="line number1 index0 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        openapi:
+       </code>
+       <code class="yml plain">
+        3.0
+       </code>
+      </div>
+      <div class="line number2 index1 alt1" data-bidi-marker="true">
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+      <div class="line number3 index2 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        paths:
+       </code>
+      </div>
+      <div class="line number4 index3 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        /pets
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number5 index4 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        post:
+       </code>
+      </div>
+      <div class="line number6 index5 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        summary:
+       </code>
+       <code class="yml plain">
+        Create a new pet
+       </code>
+      </div>
+      <div class="line number7 index6 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        description:
+       </code>
+       <code class="yml plain">
+        Operation for pet creation
+       </code>
+      </div>
+      <div class="line number8 index7 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+     </div>
+    </code>
+   </td>
+   <td>
+    <div class="content-wrapper">
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        before
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_251392">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                summary:
+               </code>
+               <code class="yml plain">
+                Create a new pet
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                description:
+               </code>
+               <code class="yml plain">
+                Operation for pet creation
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        after
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_682627">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                summary:
+               </code>
+               <code class="yml plain">
+                Create a new pet
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <code>
+     paths.[*].[*].externalDocs. [*]
+    </code>
+   </td>
+   <td>
+    <code>
+     add-operation-external-doc
+    </code>
+   </td>
+   <td>
+    add externalDocs on operation level
+   </td>
+   <td>
+    <code>
+     1 2 3 4 5 6
+    </code>
+   </td>
+   <td>
+    <code>
+     <div class="container" title="Hint: double-click to select code">
+      <div class="line number1 index0 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        openapi:
+       </code>
+       <code class="yml plain">
+        3.0
+       </code>
+      </div>
+      <div class="line number2 index1 alt1" data-bidi-marker="true">
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+      <div class="line number3 index2 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        paths:
+       </code>
+      </div>
+      <div class="line number4 index3 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        /pets
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number5 index4 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        post:
+       </code>
+      </div>
+      <div class="line number6 index5 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+     </div>
+    </code>
+   </td>
+   <td>
+    <div class="content-wrapper">
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        before
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_320787">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        after
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_703047">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+             <div class="line number9 index8 alt2">
+              9
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                externalDocs:
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                description:
+               </code>
+               <code class="yml plain">
+                Account management API
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                url:
+               </code>
+               <code class="yml plain">
+                https
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml plain">
+                //example.com
+               </code>
+              </div>
+              <div class="line number9 index8 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <code>
+     paths.[*].[*].externalDocs. [*]
+    </code>
+   </td>
+   <td>
+    <code>
+     remove-operation-external-doc
+    </code>
+   </td>
+   <td>
+    remove externalDocs on operation level
+   </td>
+   <td>
+    <code>
+     1 2 3 4 5 6 7 8 9
+    </code>
+   </td>
+   <td>
+    <code>
+     <div class="container" title="Hint: double-click to select code">
+      <div class="line number1 index0 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        openapi:
+       </code>
+       <code class="yml plain">
+        3.0
+       </code>
+      </div>
+      <div class="line number2 index1 alt1" data-bidi-marker="true">
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+      <div class="line number3 index2 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        paths:
+       </code>
+      </div>
+      <div class="line number4 index3 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        /pets
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number5 index4 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        post:
+       </code>
+      </div>
+      <div class="line number6 index5 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        externalDocs:
+       </code>
+      </div>
+      <div class="line number7 index6 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        description:
+       </code>
+       <code class="yml plain">
+        Account management API
+       </code>
+      </div>
+      <div class="line number8 index7 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        url:
+       </code>
+       <code class="yml plain">
+        https
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+       <code class="yml plain">
+        //example.com
+       </code>
+      </div>
+      <div class="line number9 index8 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+     </div>
+    </code>
+   </td>
+   <td>
+    <div class="content-wrapper">
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        before
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_174076">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+             <div class="line number9 index8 alt2">
+              9
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                externalDocs:
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                description:
+               </code>
+               <code class="yml plain">
+                Account management API
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                url:
+               </code>
+               <code class="yml plain">
+                https
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml plain">
+                //example.com
+               </code>
+              </div>
+              <div class="line number9 index8 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        after
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_99059">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <code>
+     paths.[*].[*].externalDocs.[*]. url.
+     <value>
+     </value>
+    </code>
+   </td>
+   <td>
+    <code>
+     update-url-of-operation-external-doc
+    </code>
+   </td>
+   <td>
+   </td>
+   <td>
+    <code>
+     1 2 3 4 5 6 7 8 9
+    </code>
+   </td>
+   <td>
+    <code>
+     <div class="container" title="Hint: double-click to select code">
+      <div class="line number1 index0 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        openapi:
+       </code>
+       <code class="yml plain">
+        3.0
+       </code>
+      </div>
+      <div class="line number2 index1 alt1" data-bidi-marker="true">
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+      <div class="line number3 index2 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        paths:
+       </code>
+      </div>
+      <div class="line number4 index3 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        /pets
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number5 index4 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        post:
+       </code>
+      </div>
+      <div class="line number6 index5 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        externalDocs:
+       </code>
+      </div>
+      <div class="line number7 index6 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        description:
+       </code>
+       <code class="yml plain">
+        Account management API
+       </code>
+      </div>
+      <div class="line number8 index7 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        url:
+       </code>
+       <code class="yml plain">
+        https
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+       <code class="yml plain">
+        //example.com
+       </code>
+      </div>
+      <div class="line number9 index8 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+     </div>
+    </code>
+   </td>
+   <td>
+    <div class="content-wrapper">
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        before
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_585512">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+             <div class="line number9 index8 alt2">
+              9
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                externalDocs:
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                description:
+               </code>
+               <code class="yml plain">
+                Account management API
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                url:
+               </code>
+               <code class="yml plain">
+                https
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml plain">
+                //example.com
+               </code>
+              </div>
+              <div class="line number9 index8 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        after
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_695214">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+             <div class="line number9 index8 alt2">
+              9
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                externalDocs:
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                description:
+               </code>
+               <code class="yml plain">
+                Account management API
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                url:
+               </code>
+               <code class="yml plain">
+                https
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml plain">
+                //clientdomain.com
+               </code>
+              </div>
+              <div class="line number9 index8 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <code>
+     paths.[*].[*].externalDocs.[*].description.
+     <value>
+     </value>
+    </code>
+   </td>
+   <td>
+    <code>
+     add-description-of-operation-external-doc
+    </code>
+   </td>
+   <td>
+   </td>
+   <td>
+    <code>
+     1 2 3 4 5 6 7 8
+    </code>
+   </td>
+   <td>
+    <code>
+     <div class="container" title="Hint: double-click to select code">
+      <div class="line number1 index0 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        openapi:
+       </code>
+       <code class="yml plain">
+        3.0
+       </code>
+      </div>
+      <div class="line number2 index1 alt1" data-bidi-marker="true">
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+      <div class="line number3 index2 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        paths:
+       </code>
+      </div>
+      <div class="line number4 index3 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        /pets
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number5 index4 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        post:
+       </code>
+      </div>
+      <div class="line number6 index5 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        externalDocs:
+       </code>
+      </div>
+      <div class="line number7 index6 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        url:
+       </code>
+       <code class="yml plain">
+        https
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+       <code class="yml plain">
+        //example.com
+       </code>
+      </div>
+      <div class="line number8 index7 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+     </div>
+    </code>
+   </td>
+   <td>
+    <div class="content-wrapper">
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        before
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_247046">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                externalDocs:
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                url:
+               </code>
+               <code class="yml plain">
+                https
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml plain">
+                //example.com
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        after
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_714850">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+             <div class="line number9 index8 alt2">
+              9
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                externalDocs:
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                description:
+               </code>
+               <code class="yml plain">
+                Account management API
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                url:
+               </code>
+               <code class="yml plain">
+                https
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml plain">
+                //example.com
+               </code>
+              </div>
+              <div class="line number9 index8 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <code>
+     paths.[*].[*].externalDocs.[*].description.
+     <value>
+     </value>
+    </code>
+   </td>
+   <td>
+    <code>
+     update-description-of-operation-external-doc
+    </code>
+   </td>
+   <td>
+   </td>
+   <td>
+    <code>
+     1 2 3 4 5 6 7 8 9
+    </code>
+   </td>
+   <td>
+    <code>
+     <div class="container" title="Hint: double-click to select code">
+      <div class="line number1 index0 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        openapi:
+       </code>
+       <code class="yml plain">
+        3.0
+       </code>
+      </div>
+      <div class="line number2 index1 alt1" data-bidi-marker="true">
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+      <div class="line number3 index2 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        paths:
+       </code>
+      </div>
+      <div class="line number4 index3 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        /pets
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number5 index4 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        post:
+       </code>
+      </div>
+      <div class="line number6 index5 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        externalDocs:
+       </code>
+      </div>
+      <div class="line number7 index6 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        description:
+       </code>
+       <code class="yml plain">
+        Account management API
+       </code>
+      </div>
+      <div class="line number8 index7 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        url:
+       </code>
+       <code class="yml plain">
+        https
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+       <code class="yml plain">
+        //example.com
+       </code>
+      </div>
+      <div class="line number9 index8 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+     </div>
+    </code>
+   </td>
+   <td>
+    <div class="content-wrapper">
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        before
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_560657">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+             <div class="line number9 index8 alt2">
+              9
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                externalDocs:
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                description:
+               </code>
+               <code class="yml plain">
+                Account management API
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                url:
+               </code>
+               <code class="yml plain">
+                https
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml plain">
+                //example.com
+               </code>
+              </div>
+              <div class="line number9 index8 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        after
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_580956">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+             <div class="line number9 index8 alt2">
+              9
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                externalDocs:
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                description:
+               </code>
+               <code class="yml plain">
+                test api
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                url:
+               </code>
+               <code class="yml plain">
+                https
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml plain">
+                //example.com
+               </code>
+              </div>
+              <div class="line number9 index8 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <code>
+     paths.[*].[*].externalDocs.[*].description.
+     <value>
+     </value>
+    </code>
+   </td>
+   <td>
+    <code>
+     remove-description-of-operation-external-doc
+    </code>
+   </td>
+   <td>
+   </td>
+   <td>
+    <code>
+     1 2 3 4 5 6 7 8 9
+    </code>
+   </td>
+   <td>
+    <code>
+     <div class="container" title="Hint: double-click to select code">
+      <div class="line number1 index0 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        openapi:
+       </code>
+       <code class="yml plain">
+        3.0
+       </code>
+      </div>
+      <div class="line number2 index1 alt1" data-bidi-marker="true">
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+      <div class="line number3 index2 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        paths:
+       </code>
+      </div>
+      <div class="line number4 index3 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        /pets
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number5 index4 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        post:
+       </code>
+      </div>
+      <div class="line number6 index5 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        externalDocs:
+       </code>
+      </div>
+      <div class="line number7 index6 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        description:
+       </code>
+       <code class="yml plain">
+        Account management API
+       </code>
+      </div>
+      <div class="line number8 index7 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        url:
+       </code>
+       <code class="yml plain">
+        https
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+       <code class="yml plain">
+        //example.com
+       </code>
+      </div>
+      <div class="line number9 index8 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+     </div>
+    </code>
+   </td>
+   <td>
+    <div class="content-wrapper">
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        before
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_410729">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+             <div class="line number9 index8 alt2">
+              9
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                externalDocs:
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                description:
+               </code>
+               <code class="yml plain">
+                Account management API
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                url:
+               </code>
+               <code class="yml plain">
+                https
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml plain">
+                //example.com
+               </code>
+              </div>
+              <div class="line number9 index8 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        after
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_651373">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                externalDocs:
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                url:
+               </code>
+               <code class="yml plain">
+                https
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml plain">
+                //example.com
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <code>
+     paths.[*].[*].operationId.
+     <value>
+     </value>
+    </code>
+   </td>
+   <td>
+    <code>
+     add-operationId-value
+    </code>
+   </td>
+   <td>
+   </td>
+   <td>
+    <code>
+     1 2 3 4 5 6
+    </code>
+   </td>
+   <td>
+    <code>
+     <div class="container" title="Hint: double-click to select code">
+      <div class="line number1 index0 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        openapi:
+       </code>
+       <code class="yml plain">
+        3.0.0
+       </code>
+      </div>
+      <div class="line number2 index1 alt1" data-bidi-marker="true">
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+      <div class="line number3 index2 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        paths:
+       </code>
+      </div>
+      <div class="line number4 index3 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        /pets
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number5 index4 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        post:
+       </code>
+      </div>
+      <div class="line number6 index5 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+     </div>
+    </code>
+   </td>
+   <td>
+    <div class="content-wrapper">
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        before
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_331631">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        after
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_747056">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                operationId:
+               </code>
+               <code class="yml plain">
+                getPaymentMethod
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <code>
+     paths.[*].[*].operationId.
+     <value>
+     </value>
+    </code>
+   </td>
+   <td>
+    <code>
+     update-operationId-value
+    </code>
+   </td>
+   <td>
+   </td>
+   <td>
+    <code>
+     1 2 3 4 5 6 7
+    </code>
+   </td>
+   <td>
+    <code>
+     <div class="container" title="Hint: double-click to select code">
+      <div class="line number1 index0 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        openapi:
+       </code>
+       <code class="yml plain">
+        3.0.0
+       </code>
+      </div>
+      <div class="line number2 index1 alt1" data-bidi-marker="true">
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+      <div class="line number3 index2 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        paths:
+       </code>
+      </div>
+      <div class="line number4 index3 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        /pets
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number5 index4 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        post:
+       </code>
+      </div>
+      <div class="line number6 index5 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        operationId:
+       </code>
+       <code class="yml plain">
+        getPaymentMethod
+       </code>
+      </div>
+      <div class="line number7 index6 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+     </div>
+    </code>
+   </td>
+   <td>
+    <div class="content-wrapper">
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        before
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_441449">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                operationId:
+               </code>
+               <code class="yml plain">
+                getPaymentMethod
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        after
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_664534">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                operationId:
+               </code>
+               <code class="yml plain">
+                test
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <code>
+     paths.[*].[*].operationId.
+     <value>
+     </value>
+    </code>
+   </td>
+   <td>
+    <code>
+     remove-operationId-value
+    </code>
+   </td>
+   <td>
+   </td>
+   <td>
+    <code>
+     1 2 3 4 5 6 7
+    </code>
+   </td>
+   <td>
+    <code>
+     <div class="container" title="Hint: double-click to select code">
+      <div class="line number1 index0 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        openapi:
+       </code>
+       <code class="yml plain">
+        3.0.0
+       </code>
+      </div>
+      <div class="line number2 index1 alt1" data-bidi-marker="true">
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+      <div class="line number3 index2 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        paths:
+       </code>
+      </div>
+      <div class="line number4 index3 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        /pets
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number5 index4 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        post:
+       </code>
+      </div>
+      <div class="line number6 index5 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        operationId:
+       </code>
+       <code class="yml plain">
+        getPaymentMethod
+       </code>
+      </div>
+      <div class="line number7 index6 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+     </div>
+    </code>
+   </td>
+   <td>
+    <div class="content-wrapper">
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        before
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_311732">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                operationId:
+               </code>
+               <code class="yml plain">
+                getPaymentMethod
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        after
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_631023">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <code>
+     paths.[*].[*].deprecated.
+     <value>
+     </value>
+    </code>
+   </td>
+   <td>
+    <code>
+     add-deprecated-value
+    </code>
+   </td>
+   <td>
+    add 'deprecated: true' for operation. Previously 'deprecated' was
+              not specified for the operation.
+   </td>
+   <td>
+    <code>
+     1 2 3 4 5 6
+    </code>
+   </td>
+   <td>
+    <code>
+     <div class="container" title="Hint: double-click to select code">
+      <div class="line number1 index0 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        openapi:
+       </code>
+       <code class="yml plain">
+        3.0
+       </code>
+      </div>
+      <div class="line number2 index1 alt1" data-bidi-marker="true">
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+      <div class="line number3 index2 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        paths:
+       </code>
+      </div>
+      <div class="line number4 index3 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        /pets
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number5 index4 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        post:
+       </code>
+      </div>
+      <div class="line number6 index5 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+     </div>
+    </code>
+   </td>
+   <td>
+    <div class="content-wrapper">
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        before
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_104681">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        after
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_395576">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                deprecated:
+               </code>
+               <code class="yml constants">
+                true
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <code>
+     paths.[*].[*].deprecated.
+     <value>
+     </value>
+    </code>
+   </td>
+   <td>
+    <code>
+     remove-deprecated-value
+    </code>
+   </td>
+   <td>
+    remove 'deprecated: true'
+   </td>
+   <td>
+    <code>
+     1 2 3 4 5 6 7
+    </code>
+   </td>
+   <td>
+    <code>
+     <div class="container" title="Hint: double-click to select code">
+      <div class="line number1 index0 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        openapi:
+       </code>
+       <code class="yml plain">
+        3.0.0
+       </code>
+      </div>
+      <div class="line number2 index1 alt1" data-bidi-marker="true">
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+      <div class="line number3 index2 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        paths:
+       </code>
+      </div>
+      <div class="line number4 index3 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        /pets
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number5 index4 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        post:
+       </code>
+      </div>
+      <div class="line number6 index5 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        deprecated:
+       </code>
+       <code class="yml constants">
+        true
+       </code>
+      </div>
+      <div class="line number7 index6 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+     </div>
+    </code>
+   </td>
+   <td>
+    <div class="content-wrapper">
+     <p>
+      remove 'deprecated: true' value
+     </p>
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        before
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_466896">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                deprecated:
+               </code>
+               <code class="yml constants">
+                true
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        false
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_953214">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <p>
+     <br/>
+    </p>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <code>
+     paths.[*].[*].deprecated.
+     <value>
+     </value>
+    </code>
+   </td>
+   <td>
+    <code>
+     update-deprecated-value
+    </code>
+   </td>
+   <td>
+    change from 'deprecated: true' to 'deprecated: false'
+   </td>
+   <td>
+    <code>
+     1 2 3 4 5 6 7
+    </code>
+   </td>
+   <td>
+    <code>
+     <div class="container" title="Hint: double-click to select code">
+      <div class="line number1 index0 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        openapi:
+       </code>
+       <code class="yml plain">
+        3.0.0
+       </code>
+      </div>
+      <div class="line number2 index1 alt1" data-bidi-marker="true">
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+      <div class="line number3 index2 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        paths:
+       </code>
+      </div>
+      <div class="line number4 index3 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        /pets
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number5 index4 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        post:
+       </code>
+      </div>
+      <div class="line number6 index5 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        deprecated:
+       </code>
+       <code class="yml constants">
+        true
+       </code>
+      </div>
+      <div class="line number7 index6 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+     </div>
+    </code>
+   </td>
+   <td>
+    <div class="content-wrapper">
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        before
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_631262">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                deprecated:
+               </code>
+               <code class="yml constants">
+                true
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        after
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_482729">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                deprecated:
+               </code>
+               <code class="yml constants">
+                false
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <code>
+     paths.[*].[*].servers.[*].url.
+     <value>
+     </value>
+    </code>
+   </td>
+   <td>
+    <code>
+     add-server-url
+    </code>
+   </td>
+   <td>
+   </td>
+   <td>
+    <code>
+     1 2 3 4 5
+    </code>
+   </td>
+   <td>
+    <code>
+     <div class="container" title="Hint: double-click to select code">
+      <div class="line number1 index0 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        openapi:
+       </code>
+       <code class="yml plain">
+        3.0
+       </code>
+      </div>
+      <div class="line number2 index1 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+      <div class="line number3 index2 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        /pets
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number4 index3 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        post:
+       </code>
+      </div>
+      <div class="line number5 index4 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+     </div>
+    </code>
+   </td>
+   <td>
+    <div class="content-wrapper">
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        before
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_430456">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        after
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_545478">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                servers
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string bold">
+                -
+               </code>
+               <code class="yml plain">
+                url
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                https:
+               </code>
+               <code class="yml plain">
+                //development.gigantic-server.com
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <code>
+     paths.[*].[*].servers.[*].url.
+     <value>
+     </value>
+    </code>
+   </td>
+   <td>
+    <code>
+     update-server-url
+    </code>
+   </td>
+   <td>
+   </td>
+   <td>
+    <code>
+     1 2 3 4 5 6 7 8
+    </code>
+   </td>
+   <td>
+    <code>
+     <div class="container" title="Hint: double-click to select code">
+      <div class="line number1 index0 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        openapi:
+       </code>
+       <code class="yml plain">
+        3.0
+       </code>
+      </div>
+      <div class="line number2 index1 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+      <div class="line number3 index2 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        /pets
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number4 index3 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        post:
+       </code>
+      </div>
+      <div class="line number5 index4 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        servers
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number6 index5 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml string bold">
+        -
+       </code>
+       <code class="yml plain">
+        url
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number7 index6 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        https:
+       </code>
+       <code class="yml plain">
+        //development.gigantic-server.com
+       </code>
+      </div>
+      <div class="line number8 index7 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+     </div>
+    </code>
+   </td>
+   <td>
+    <div class="content-wrapper">
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        before
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_284780">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                servers
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string bold">
+                -
+               </code>
+               <code class="yml plain">
+                url
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                https:
+               </code>
+               <code class="yml plain">
+                //development.gigantic-server.com
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        after
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_881190">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                servers
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string bold">
+                -
+               </code>
+               <code class="yml plain">
+                url
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml plain">
+                https
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml plain">
+                //staging.gigantic-server.com
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <code>
+     paths.[*].[*].servers.[*].url.
+     <value>
+     </value>
+    </code>
+   </td>
+   <td>
+    <code>
+     remove-server-url
+    </code>
+   </td>
+   <td>
+   </td>
+   <td>
+    <code>
+     1 2 3 4 5 6 7
+    </code>
+   </td>
+   <td>
+    <code>
+     <div class="container" title="Hint: double-click to select code">
+      <div class="line number1 index0 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        openapi:
+       </code>
+       <code class="yml plain">
+        3.0
+       </code>
+      </div>
+      <div class="line number2 index1 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+      <div class="line number3 index2 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        /pets
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number4 index3 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        post:
+       </code>
+      </div>
+      <div class="line number5 index4 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        servers
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number6 index5 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml string bold">
+        -
+       </code>
+       <code class="yml plain">
+        url
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+       <code class="yml plain">
+        https
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+       <code class="yml plain">
+        //development.gigantic-server.com
+       </code>
+      </div>
+      <div class="line number7 index6 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+     </div>
+    </code>
+   </td>
+   <td>
+    <div class="content-wrapper">
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        before
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_468239">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                servers
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string bold">
+                -
+               </code>
+               <code class="yml plain">
+                url
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml plain">
+                https
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml plain">
+                //development.gigantic-server.com
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        after
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_803991">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <code>
+     paths.[*].[*].servers.[*].description.
+     <value>
+     </value>
+    </code>
+   </td>
+   <td>
+    <code>
+     add-server-description
+    </code>
+   </td>
+   <td>
+   </td>
+   <td>
+    <code>
+     1 2 3 4 5 6 7
+    </code>
+   </td>
+   <td>
+    <code>
+     <div class="container" title="Hint: double-click to select code">
+      <div class="line number1 index0 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        openapi:
+       </code>
+       <code class="yml plain">
+        3.0
+       </code>
+      </div>
+      <div class="line number2 index1 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+      <div class="line number3 index2 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        /pets
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number4 index3 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        post:
+       </code>
+      </div>
+      <div class="line number5 index4 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        servers:
+       </code>
+      </div>
+      <div class="line number6 index5 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml string bold">
+        -
+       </code>
+       <code class="yml plain">
+        url
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+       <code class="yml plain">
+        https
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+       <code class="yml plain">
+        //development.gigantic-server.com
+       </code>
+      </div>
+      <div class="line number7 index6 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+     </div>
+    </code>
+   </td>
+   <td>
+    <div class="content-wrapper">
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        before
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_502319">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                servers:
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string bold">
+                -
+               </code>
+               <code class="yml plain">
+                url
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml plain">
+                https
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml plain">
+                //development.gigantic-server.com
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        after
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_32603">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                servers
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string bold">
+                -
+               </code>
+               <code class="yml plain">
+                url
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml plain">
+                https
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml plain">
+                //development.gigantic-server.com
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                description
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml plain">
+                Main server
+                                            
+                                     ...
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <code>
+     paths.[*].[*].servers.[*].description.
+     <value>
+     </value>
+    </code>
+   </td>
+   <td>
+    <code>
+     update-server-description
+    </code>
+   </td>
+   <td>
+   </td>
+   <td>
+    <code>
+     1 2 3 4 5 6 7 8
+    </code>
+   </td>
+   <td>
+    <code>
+     <div class="container" title="Hint: double-click to select code">
+      <div class="line number1 index0 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        openapi:
+       </code>
+       <code class="yml plain">
+        3.0
+       </code>
+      </div>
+      <div class="line number2 index1 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+      <div class="line number3 index2 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        /pets
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number4 index3 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        post:
+       </code>
+      </div>
+      <div class="line number5 index4 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        servers
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number6 index5 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml string bold">
+        -
+       </code>
+       <code class="yml plain">
+        url
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+       <code class="yml plain">
+        https
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+       <code class="yml plain">
+        //development.gigantic-server.com
+       </code>
+      </div>
+      <div class="line number7 index6 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        description
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+       <code class="yml plain">
+        Main server
+       </code>
+      </div>
+      <div class="line number8 index7 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+     </div>
+    </code>
+   </td>
+   <td>
+    <div class="content-wrapper">
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        before
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_249596">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                servers
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string bold">
+                -
+               </code>
+               <code class="yml plain">
+                url
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml plain">
+                https
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml plain">
+                //development.gigantic-server.com
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                description
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml plain">
+                Main server
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        after
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_269782">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                servers
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string bold">
+                -
+               </code>
+               <code class="yml plain">
+                url
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml plain">
+                https
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml plain">
+                //development.gigantic-server.com
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                description
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml plain">
+                Staging server
+                                         
+                                     ...
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <code>
+     paths.[*].[*].servers.[*].description.
+     <value>
+     </value>
+    </code>
+   </td>
+   <td>
+    <code>
+     remove-server-description
+    </code>
+   </td>
+   <td>
+   </td>
+   <td>
+    <code>
+     1 2 3 4 5 6 7 8
+    </code>
+   </td>
+   <td>
+    <code>
+     <div class="container" title="Hint: double-click to select code">
+      <div class="line number1 index0 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        openapi:
+       </code>
+       <code class="yml plain">
+        3.0
+       </code>
+      </div>
+      <div class="line number2 index1 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+      <div class="line number3 index2 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        /pets
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number4 index3 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        post:
+       </code>
+      </div>
+      <div class="line number5 index4 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        servers
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number6 index5 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml string bold">
+        -
+       </code>
+       <code class="yml plain">
+        url
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+       <code class="yml plain">
+        https
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+       <code class="yml plain">
+        //development.gigantic-server.com
+       </code>
+      </div>
+      <div class="line number7 index6 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        description
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+       <code class="yml plain">
+        Main server
+       </code>
+      </div>
+      <div class="line number8 index7 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+     </div>
+    </code>
+   </td>
+   <td>
+    <div class="content-wrapper">
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        before
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_761813">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                servers
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string bold">
+                -
+               </code>
+               <code class="yml plain">
+                url
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml plain">
+                https
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml plain">
+                //development.gigantic-server.com
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                description
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml plain">
+                Main server
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        after
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_658406">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                servers
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string bold">
+                -
+               </code>
+               <code class="yml plain">
+                url
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml plain">
+                https
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml plain">
+                //development.gigantic-server.com
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <code>
+     paths.[*].[*].servers.[*].variables.[*]
+    </code>
+   </td>
+   <td>
+    <code>
+     add-variable
+    </code>
+   </td>
+   <td>
+    add variable for server
+   </td>
+   <td>
+    <code>
+     1 2 3 4 5 6 7 8
+    </code>
+   </td>
+   <td>
+    <code>
+     <div class="container" title="Hint: double-click to select code">
+      <div class="line number1 index0 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        openapi:
+       </code>
+       <code class="yml plain">
+        3.0
+       </code>
+      </div>
+      <div class="line number2 index1 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+      <div class="line number3 index2 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        /pets
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number4 index3 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        post:
+       </code>
+      </div>
+      <div class="line number5 index4 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        servers
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number6 index5 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml string bold">
+        -
+       </code>
+       <code class="yml plain">
+        url
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+       <code class="yml plain">
+        https
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+       <code class="yml plain">
+        //development.gigantic-server.com
+       </code>
+      </div>
+      <div class="line number7 index6 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        description:
+       </code>
+       <code class="yml plain">
+        Main server
+       </code>
+      </div>
+      <div class="line number8 index7 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+     </div>
+    </code>
+   </td>
+   <td>
+    <div class="content-wrapper">
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        before
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_582427">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                servers
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string bold">
+                -
+               </code>
+               <code class="yml plain">
+                url
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml plain">
+                https
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml plain">
+                //development.gigantic-server.com
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                description:
+               </code>
+               <code class="yml plain">
+                Main server
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        after
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_635717">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+             <div class="line number9 index8 alt2">
+              9
+             </div>
+             <div class="line number10 index9 alt1">
+              10
+             </div>
+             <div class="line number11 index10 alt2">
+              11
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                servers
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string bold">
+                -
+               </code>
+               <code class="yml plain">
+                url
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml plain">
+                https
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml plain">
+                //
+               </code>
+               <code class="yml constants">
+                {
+               </code>
+               <code class="yml plain">
+                username
+               </code>
+               <code class="yml constants">
+                }
+               </code>
+               <code class="yml plain">
+                .gigantic-server.com
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                description:
+               </code>
+               <code class="yml plain">
+                Main server
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                variables:
+               </code>
+              </div>
+              <div class="line number9 index8 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                username:
+               </code>
+              </div>
+              <div class="line number10 index9 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                default:
+               </code>
+               <code class="yml plain">
+                demo
+               </code>
+              </div>
+              <div class="line number11 index10 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <code>
+     paths.[*].[*].servers.[*].variables.[*]
+    </code>
+   </td>
+   <td>
+    <code>
+     remove-variable
+    </code>
+   </td>
+   <td>
+    remove variable for server
+   </td>
+   <td>
+    <code>
+     1 2 3 4 5 6 7 8 9 10 11
+    </code>
+   </td>
+   <td>
+    <code>
+     <div class="container" title="Hint: double-click to select code">
+      <div class="line number1 index0 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        openapi:
+       </code>
+       <code class="yml plain">
+        3.0
+       </code>
+      </div>
+      <div class="line number2 index1 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+      <div class="line number3 index2 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        /pets
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number4 index3 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        post:
+       </code>
+      </div>
+      <div class="line number5 index4 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        servers
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number6 index5 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml string bold">
+        -
+       </code>
+       <code class="yml plain">
+        url
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+       <code class="yml plain">
+        https
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+       <code class="yml plain">
+        //
+       </code>
+       <code class="yml constants">
+        {
+       </code>
+       <code class="yml plain">
+        username
+       </code>
+       <code class="yml constants">
+        }
+       </code>
+       <code class="yml plain">
+        .gigantic-server.com
+       </code>
+      </div>
+      <div class="line number7 index6 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        description:
+       </code>
+       <code class="yml plain">
+        Main server
+       </code>
+      </div>
+      <div class="line number8 index7 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        variables:
+       </code>
+      </div>
+      <div class="line number9 index8 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        username:
+       </code>
+      </div>
+      <div class="line number10 index9 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        default:
+       </code>
+       <code class="yml plain">
+        demo
+       </code>
+      </div>
+      <div class="line number11 index10 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+     </div>
+    </code>
+   </td>
+   <td>
+    <div class="content-wrapper">
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        before
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_115733">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+             <div class="line number9 index8 alt2">
+              9
+             </div>
+             <div class="line number10 index9 alt1">
+              10
+             </div>
+             <div class="line number11 index10 alt2">
+              11
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                servers
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string bold">
+                -
+               </code>
+               <code class="yml plain">
+                url
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml plain">
+                https
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml plain">
+                //
+               </code>
+               <code class="yml constants">
+                {
+               </code>
+               <code class="yml plain">
+                username
+               </code>
+               <code class="yml constants">
+                }
+               </code>
+               <code class="yml plain">
+                .gigantic-server.com
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                description:
+               </code>
+               <code class="yml plain">
+                Main server
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                variables:
+               </code>
+              </div>
+              <div class="line number9 index8 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                username:
+               </code>
+              </div>
+              <div class="line number10 index9 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                default:
+               </code>
+               <code class="yml plain">
+                demo
+               </code>
+              </div>
+              <div class="line number11 index10 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        after
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_414853">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                servers
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string bold">
+                -
+               </code>
+               <code class="yml plain">
+                url
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml plain">
+                https
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml plain">
+                //gigantic-server.com
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                description:
+               </code>
+               <code class="yml plain">
+                Main server
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <code>
+     paths.[*].[*].servers.[*].variables.[*].default.
+     <value>
+     </value>
+    </code>
+   </td>
+   <td>
+    <code>
+     update-default-value-for-server-variable
+    </code>
+   </td>
+   <td>
+   </td>
+   <td>
+    <code>
+     1 2 3 4 5 6 7 8 9 10 11
+    </code>
+   </td>
+   <td>
+    <code>
+     <div class="container" title="Hint: double-click to select code">
+      <div class="line number1 index0 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        openapi:
+       </code>
+       <code class="yml plain">
+        3.0
+       </code>
+      </div>
+      <div class="line number2 index1 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+      <div class="line number3 index2 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        /pets
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number4 index3 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        post:
+       </code>
+      </div>
+      <div class="line number5 index4 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        servers
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number6 index5 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml string bold">
+        -
+       </code>
+       <code class="yml plain">
+        url
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+       <code class="yml plain">
+        https
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+       <code class="yml plain">
+        //
+       </code>
+       <code class="yml constants">
+        {
+       </code>
+       <code class="yml plain">
+        username
+       </code>
+       <code class="yml constants">
+        }
+       </code>
+       <code class="yml plain">
+        .gigantic-server.com
+       </code>
+      </div>
+      <div class="line number7 index6 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        description:
+       </code>
+       <code class="yml plain">
+        Main server
+       </code>
+      </div>
+      <div class="line number8 index7 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        variables:
+       </code>
+      </div>
+      <div class="line number9 index8 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        username:
+       </code>
+      </div>
+      <div class="line number10 index9 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        default:
+       </code>
+       <code class="yml plain">
+        demo
+       </code>
+      </div>
+      <div class="line number11 index10 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+     </div>
+    </code>
+   </td>
+   <td>
+    <div class="content-wrapper">
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        before
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_653150">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+             <div class="line number9 index8 alt2">
+              9
+             </div>
+             <div class="line number10 index9 alt1">
+              10
+             </div>
+             <div class="line number11 index10 alt2">
+              11
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                servers
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string bold">
+                -
+               </code>
+               <code class="yml plain">
+                url
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml plain">
+                https
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml plain">
+                //
+               </code>
+               <code class="yml constants">
+                {
+               </code>
+               <code class="yml plain">
+                username
+               </code>
+               <code class="yml constants">
+                }
+               </code>
+               <code class="yml plain">
+                .gigantic-server.com
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                description:
+               </code>
+               <code class="yml plain">
+                Main server
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                variables:
+               </code>
+              </div>
+              <div class="line number9 index8 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                username:
+               </code>
+              </div>
+              <div class="line number10 index9 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                default:
+               </code>
+               <code class="yml plain">
+                demo
+               </code>
+              </div>
+              <div class="line number11 index10 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        after
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_285974">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+             <div class="line number9 index8 alt2">
+              9
+             </div>
+             <div class="line number10 index9 alt1">
+              10
+             </div>
+             <div class="line number11 index10 alt2">
+              11
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                servers
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string bold">
+                -
+               </code>
+               <code class="yml plain">
+                url
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml plain">
+                https
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml plain">
+                //
+               </code>
+               <code class="yml constants">
+                {
+               </code>
+               <code class="yml plain">
+                username
+               </code>
+               <code class="yml constants">
+                }
+               </code>
+               <code class="yml plain">
+                .gigantic-server.com
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                description:
+               </code>
+               <code class="yml plain">
+                Main server
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                variables:
+               </code>
+              </div>
+              <div class="line number9 index8 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                username:
+               </code>
+              </div>
+              <div class="line number10 index9 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                default:
+               </code>
+               <code class="yml plain">
+                production
+               </code>
+              </div>
+              <div class="line number11 index10 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <code>
+     paths.[*].[*].servers.[*].variables.[*].enum.
+     <value>
+     </value>
+    </code>
+   </td>
+   <td>
+    <code>
+     add-variable-enum
+    </code>
+   </td>
+   <td>
+    add enum for variable of server
+   </td>
+   <td>
+    <code>
+     1 2 3 4 5 6 7 8 9 10 11
+    </code>
+   </td>
+   <td>
+    <code>
+     <div class="container" title="Hint: double-click to select code">
+      <div class="line number1 index0 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        openapi:
+       </code>
+       <code class="yml plain">
+        3.0
+       </code>
+      </div>
+      <div class="line number2 index1 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+      <div class="line number3 index2 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        /pets
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number4 index3 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        post:
+       </code>
+      </div>
+      <div class="line number5 index4 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        servers
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number6 index5 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml string bold">
+        -
+       </code>
+       <code class="yml plain">
+        url
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+       <code class="yml plain">
+        https
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+       <code class="yml plain">
+        //
+       </code>
+       <code class="yml constants">
+        {
+       </code>
+       <code class="yml plain">
+        username
+       </code>
+       <code class="yml constants">
+        }
+       </code>
+       <code class="yml plain">
+        .gigantic-server.com
+       </code>
+      </div>
+      <div class="line number7 index6 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        description:
+       </code>
+       <code class="yml plain">
+        Main server
+       </code>
+      </div>
+      <div class="line number8 index7 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        variables:
+       </code>
+      </div>
+      <div class="line number9 index8 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        username:
+       </code>
+      </div>
+      <div class="line number10 index9 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        default:
+       </code>
+       <code class="yml plain">
+        staging
+       </code>
+      </div>
+      <div class="line number11 index10 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+     </div>
+    </code>
+   </td>
+   <td>
+    <div class="content-wrapper">
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        before
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_181813">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+             <div class="line number9 index8 alt2">
+              9
+             </div>
+             <div class="line number10 index9 alt1">
+              10
+             </div>
+             <div class="line number11 index10 alt2">
+              11
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                servers
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string bold">
+                -
+               </code>
+               <code class="yml plain">
+                url
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml plain">
+                https
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml plain">
+                //
+               </code>
+               <code class="yml constants">
+                {
+               </code>
+               <code class="yml plain">
+                username
+               </code>
+               <code class="yml constants">
+                }
+               </code>
+               <code class="yml plain">
+                .gigantic-server.com
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                description:
+               </code>
+               <code class="yml plain">
+                Main server
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                variables:
+               </code>
+              </div>
+              <div class="line number9 index8 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                username:
+               </code>
+              </div>
+              <div class="line number10 index9 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                default:
+               </code>
+               <code class="yml plain">
+                staging
+               </code>
+              </div>
+              <div class="line number11 index10 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        after
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_172395">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+             <div class="line number9 index8 alt2">
+              9
+             </div>
+             <div class="line number10 index9 alt1">
+              10
+             </div>
+             <div class="line number11 index10 alt2">
+              11
+             </div>
+             <div class="line number12 index11 alt1">
+              12
+             </div>
+             <div class="line number13 index12 alt2">
+              13
+             </div>
+             <div class="line number14 index13 alt1">
+              14
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                servers
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string bold">
+                -
+               </code>
+               <code class="yml plain">
+                url
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml plain">
+                https
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml plain">
+                //
+               </code>
+               <code class="yml constants">
+                {
+               </code>
+               <code class="yml plain">
+                username
+               </code>
+               <code class="yml constants">
+                }
+               </code>
+               <code class="yml plain">
+                .gigantic-server.com
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                description:
+               </code>
+               <code class="yml plain">
+                Main server
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                variables:
+               </code>
+              </div>
+              <div class="line number9 index8 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                username:
+               </code>
+              </div>
+              <div class="line number10 index9 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                default:
+               </code>
+               <code class="yml plain">
+                staging
+               </code>
+              </div>
+              <div class="line number11 index10 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                enum:
+               </code>
+              </div>
+              <div class="line number12 index11 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string bold">
+                -
+               </code>
+               <code class="yml plain">
+                development
+               </code>
+              </div>
+              <div class="line number13 index12 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string bold">
+                -
+               </code>
+               <code class="yml plain">
+                staging
+               </code>
+              </div>
+              <div class="line number14 index13 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <code>
+     paths.[*].[*].servers.[*].variables.[*].enum.
+     <value>
+     </value>
+    </code>
+   </td>
+   <td>
+    <code>
+     update-variable-enum
+    </code>
+   </td>
+   <td>
+    update enum value for variable of server
+   </td>
+   <td>
+    <code>
+     1 2 3 4 5 6 7 8 9 10 11 12 13
+    </code>
+   </td>
+   <td>
+    <code>
+     <div class="container" title="Hint: double-click to select code">
+      <div class="line number1 index0 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        openapi:
+       </code>
+       <code class="yml plain">
+        3.0
+       </code>
+      </div>
+      <div class="line number2 index1 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+      <div class="line number3 index2 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        /pets
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number4 index3 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        post:
+       </code>
+      </div>
+      <div class="line number5 index4 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        servers
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number6 index5 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml string bold">
+        -
+       </code>
+       <code class="yml plain">
+        url
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+       <code class="yml plain">
+        https
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+       <code class="yml plain">
+        //
+       </code>
+       <code class="yml constants">
+        {
+       </code>
+       <code class="yml plain">
+        username
+       </code>
+       <code class="yml constants">
+        }
+       </code>
+       <code class="yml plain">
+        .gigantic-server.com
+       </code>
+      </div>
+      <div class="line number7 index6 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        description:
+       </code>
+       <code class="yml plain">
+        Main server
+       </code>
+      </div>
+      <div class="line number8 index7 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        variables:
+       </code>
+      </div>
+      <div class="line number9 index8 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        username:
+       </code>
+      </div>
+      <div class="line number10 index9 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        enum:
+       </code>
+      </div>
+      <div class="line number11 index10 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml string bold">
+        -
+       </code>
+       <code class="yml string">
+        "development"
+       </code>
+      </div>
+      <div class="line number12 index11 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml string bold">
+        -
+       </code>
+       <code class="yml string">
+        "staging"
+       </code>
+      </div>
+      <div class="line number13 index12 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+     </div>
+    </code>
+   </td>
+   <td>
+    <div class="content-wrapper">
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        before
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_155518">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+             <div class="line number9 index8 alt2">
+              9
+             </div>
+             <div class="line number10 index9 alt1">
+              10
+             </div>
+             <div class="line number11 index10 alt2">
+              11
+             </div>
+             <div class="line number12 index11 alt1">
+              12
+             </div>
+             <div class="line number13 index12 alt2">
+              13
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                servers
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string bold">
+                -
+               </code>
+               <code class="yml plain">
+                url
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml plain">
+                https
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml plain">
+                //
+               </code>
+               <code class="yml constants">
+                {
+               </code>
+               <code class="yml plain">
+                username
+               </code>
+               <code class="yml constants">
+                }
+               </code>
+               <code class="yml plain">
+                .gigantic-server.com
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                description:
+               </code>
+               <code class="yml plain">
+                Main server
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                variables:
+               </code>
+              </div>
+              <div class="line number9 index8 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                username:
+               </code>
+              </div>
+              <div class="line number10 index9 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                enum:
+               </code>
+              </div>
+              <div class="line number11 index10 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string bold">
+                -
+               </code>
+               <code class="yml string">
+                "development"
+               </code>
+              </div>
+              <div class="line number12 index11 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string bold">
+                -
+               </code>
+               <code class="yml string">
+                "staging"
+               </code>
+              </div>
+              <div class="line number13 index12 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        after
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_727290">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+             <div class="line number9 index8 alt2">
+              9
+             </div>
+             <div class="line number10 index9 alt1">
+              10
+             </div>
+             <div class="line number11 index10 alt2">
+              11
+             </div>
+             <div class="line number12 index11 alt1">
+              12
+             </div>
+             <div class="line number13 index12 alt2">
+              13
+             </div>
+             <div class="line number14 index13 alt1">
+              14
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                servers
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string bold">
+                -
+               </code>
+               <code class="yml plain">
+                url
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml plain">
+                https
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml plain">
+                //
+               </code>
+               <code class="yml constants">
+                {
+               </code>
+               <code class="yml plain">
+                username
+               </code>
+               <code class="yml constants">
+                }
+               </code>
+               <code class="yml plain">
+                .gigantic-server.com
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                description:
+               </code>
+               <code class="yml plain">
+                Main server
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                variables:
+               </code>
+              </div>
+              <div class="line number9 index8 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                username:
+               </code>
+              </div>
+              <div class="line number10 index9 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                enum:
+               </code>
+              </div>
+              <div class="line number11 index10 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string bold">
+                -
+               </code>
+               <code class="yml string">
+                "development"
+               </code>
+              </div>
+              <div class="line number12 index11 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string bold">
+                -
+               </code>
+               <code class="yml string">
+                "staging"
+               </code>
+              </div>
+              <div class="line number13 index12 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string bold">
+                -
+               </code>
+               <code class="yml string">
+                "pre-production"
+               </code>
+              </div>
+              <div class="line number14 index13 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <code>
+     paths.[*].[*].servers.[*].variables.[*].enum.
+     <value>
+     </value>
+    </code>
+   </td>
+   <td>
+    <code>
+     remove-variable-enum
+    </code>
+   </td>
+   <td>
+    remove enum value for variable of server
+   </td>
+   <td>
+    <code>
+     1 2 3 4 5 6 7 8 9 10 11 12 13 14
+    </code>
+   </td>
+   <td>
+    <code>
+     <div class="container" title="Hint: double-click to select code">
+      <div class="line number1 index0 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        openapi:
+       </code>
+       <code class="yml plain">
+        3.0
+       </code>
+      </div>
+      <div class="line number2 index1 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+      <div class="line number3 index2 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        /pets
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number4 index3 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        post:
+       </code>
+      </div>
+      <div class="line number5 index4 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        servers
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number6 index5 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml string bold">
+        -
+       </code>
+       <code class="yml plain">
+        url
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+       <code class="yml plain">
+        https
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+       <code class="yml plain">
+        //
+       </code>
+       <code class="yml constants">
+        {
+       </code>
+       <code class="yml plain">
+        username
+       </code>
+       <code class="yml constants">
+        }
+       </code>
+       <code class="yml plain">
+        .gigantic-server.com
+       </code>
+      </div>
+      <div class="line number7 index6 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        description:
+       </code>
+       <code class="yml plain">
+        Main server
+       </code>
+      </div>
+      <div class="line number8 index7 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        variables:
+       </code>
+      </div>
+      <div class="line number9 index8 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        username:
+       </code>
+      </div>
+      <div class="line number10 index9 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        enum:
+       </code>
+      </div>
+      <div class="line number11 index10 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml string bold">
+        -
+       </code>
+       <code class="yml string">
+        "development"
+       </code>
+      </div>
+      <div class="line number12 index11 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml string bold">
+        -
+       </code>
+       <code class="yml string">
+        "staging"
+       </code>
+      </div>
+      <div class="line number13 index12 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        default:
+       </code>
+       <code class="yml string">
+        "development"
+       </code>
+      </div>
+      <div class="line number14 index13 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+     </div>
+    </code>
+   </td>
+   <td>
+    <div class="content-wrapper">
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        before
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_109307">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+             <div class="line number9 index8 alt2">
+              9
+             </div>
+             <div class="line number10 index9 alt1">
+              10
+             </div>
+             <div class="line number11 index10 alt2">
+              11
+             </div>
+             <div class="line number12 index11 alt1">
+              12
+             </div>
+             <div class="line number13 index12 alt2">
+              13
+             </div>
+             <div class="line number14 index13 alt1">
+              14
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                servers
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string bold">
+                -
+               </code>
+               <code class="yml plain">
+                url
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml plain">
+                https
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml plain">
+                //
+               </code>
+               <code class="yml constants">
+                {
+               </code>
+               <code class="yml plain">
+                username
+               </code>
+               <code class="yml constants">
+                }
+               </code>
+               <code class="yml plain">
+                .gigantic-server.com
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                description:
+               </code>
+               <code class="yml plain">
+                Main server
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                variables:
+               </code>
+              </div>
+              <div class="line number9 index8 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                username:
+               </code>
+              </div>
+              <div class="line number10 index9 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                enum:
+               </code>
+              </div>
+              <div class="line number11 index10 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string bold">
+                -
+               </code>
+               <code class="yml string">
+                "development"
+               </code>
+              </div>
+              <div class="line number12 index11 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string bold">
+                -
+               </code>
+               <code class="yml string">
+                "staging"
+               </code>
+              </div>
+              <div class="line number13 index12 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                default:
+               </code>
+               <code class="yml string">
+                "development"
+               </code>
+              </div>
+              <div class="line number14 index13 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        after
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_586487">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+             <div class="line number9 index8 alt2">
+              9
+             </div>
+             <div class="line number10 index9 alt1">
+              10
+             </div>
+             <div class="line number11 index10 alt2">
+              11
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                servers
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string bold">
+                -
+               </code>
+               <code class="yml plain">
+                url
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml plain">
+                https
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml plain">
+                //
+               </code>
+               <code class="yml constants">
+                {
+               </code>
+               <code class="yml plain">
+                username
+               </code>
+               <code class="yml constants">
+                }
+               </code>
+               <code class="yml plain">
+                .gigantic-server.com
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                description:
+               </code>
+               <code class="yml plain">
+                Main server
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                variables:
+               </code>
+              </div>
+              <div class="line number9 index8 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                username:
+               </code>
+              </div>
+              <div class="line number10 index9 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                default:
+               </code>
+               <code class="yml string">
+                "development"
+               </code>
+              </div>
+              <div class="line number11 index10 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <code>
+     paths.[*].[*].servers.variables.description.
+     <value>
+     </value>
+    </code>
+   </td>
+   <td>
+    <code>
+     add-server-variable-description
+    </code>
+   </td>
+   <td>
+   </td>
+   <td>
+    <code>
+     1 2 3 4 5 6 7 8 9 10 11
+    </code>
+   </td>
+   <td>
+    <code>
+     <div class="container" title="Hint: double-click to select code">
+      <div class="line number1 index0 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        openapi:
+       </code>
+       <code class="yml plain">
+        3.0
+       </code>
+      </div>
+      <div class="line number2 index1 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+      <div class="line number3 index2 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        /pets
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number4 index3 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        post:
+       </code>
+      </div>
+      <div class="line number5 index4 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        servers
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number6 index5 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml string bold">
+        -
+       </code>
+       <code class="yml plain">
+        url
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+       <code class="yml plain">
+        https
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+       <code class="yml plain">
+        //
+       </code>
+       <code class="yml constants">
+        {
+       </code>
+       <code class="yml plain">
+        username
+       </code>
+       <code class="yml constants">
+        }
+       </code>
+       <code class="yml plain">
+        .gigantic-server.com
+       </code>
+      </div>
+      <div class="line number7 index6 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        description:
+       </code>
+       <code class="yml plain">
+        Main server
+       </code>
+      </div>
+      <div class="line number8 index7 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        variables:
+       </code>
+      </div>
+      <div class="line number9 index8 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        username:
+       </code>
+      </div>
+      <div class="line number10 index9 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        default:
+       </code>
+       <code class="yml string">
+        "development"
+       </code>
+      </div>
+      <div class="line number11 index10 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+     </div>
+    </code>
+   </td>
+   <td>
+    <div class="content-wrapper">
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        before
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_226811">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+             <div class="line number9 index8 alt2">
+              9
+             </div>
+             <div class="line number10 index9 alt1">
+              10
+             </div>
+             <div class="line number11 index10 alt2">
+              11
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                servers
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string bold">
+                -
+               </code>
+               <code class="yml plain">
+                url
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml plain">
+                https
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml plain">
+                //
+               </code>
+               <code class="yml constants">
+                {
+               </code>
+               <code class="yml plain">
+                username
+               </code>
+               <code class="yml constants">
+                }
+               </code>
+               <code class="yml plain">
+                .gigantic-server.com
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                description:
+               </code>
+               <code class="yml plain">
+                Main server
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                variables:
+               </code>
+              </div>
+              <div class="line number9 index8 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                username:
+               </code>
+              </div>
+              <div class="line number10 index9 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                default:
+               </code>
+               <code class="yml string">
+                "development"
+               </code>
+              </div>
+              <div class="line number11 index10 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        after
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_976523">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+             <div class="line number9 index8 alt2">
+              9
+             </div>
+             <div class="line number10 index9 alt1">
+              10
+             </div>
+             <div class="line number11 index10 alt2">
+              11
+             </div>
+             <div class="line number12 index11 alt1">
+              12
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                servers
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string bold">
+                -
+               </code>
+               <code class="yml plain">
+                url
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml plain">
+                https
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml plain">
+                //
+               </code>
+               <code class="yml constants">
+                {
+               </code>
+               <code class="yml plain">
+                username
+               </code>
+               <code class="yml constants">
+                }
+               </code>
+               <code class="yml plain">
+                .gigantic-server.com
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                description:
+               </code>
+               <code class="yml plain">
+                Main server
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                variables:
+               </code>
+              </div>
+              <div class="line number9 index8 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                username:
+               </code>
+              </div>
+              <div class="line number10 index9 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                default:
+               </code>
+               <code class="yml string">
+                "development"
+               </code>
+              </div>
+              <div class="line number11 index10 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                description:
+               </code>
+               <code class="yml plain">
+                this value is assigned by the service
+                                    provider
+               </code>
+              </div>
+              <div class="line number12 index11 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <code>
+     paths.[*].[*].servers.variables.description.
+     <value>
+     </value>
+    </code>
+   </td>
+   <td>
+    <code>
+     update-server-variable-description
+    </code>
+   </td>
+   <td>
+   </td>
+   <td>
+    <code>
+     1 2 3 4 5 6 7 8 9 10 11 12
+    </code>
+   </td>
+   <td>
+    <code>
+     <div class="container" title="Hint: double-click to select code">
+      <div class="line number1 index0 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        openapi:
+       </code>
+       <code class="yml plain">
+        3.0
+       </code>
+      </div>
+      <div class="line number2 index1 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+      <div class="line number3 index2 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        /pets
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number4 index3 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        post:
+       </code>
+      </div>
+      <div class="line number5 index4 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        servers
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number6 index5 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml string bold">
+        -
+       </code>
+       <code class="yml plain">
+        url
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+       <code class="yml plain">
+        https
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+       <code class="yml plain">
+        //
+       </code>
+       <code class="yml constants">
+        {
+       </code>
+       <code class="yml plain">
+        username
+       </code>
+       <code class="yml constants">
+        }
+       </code>
+       <code class="yml plain">
+        .gigantic-server.com
+       </code>
+      </div>
+      <div class="line number7 index6 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        description:
+       </code>
+       <code class="yml plain">
+        Main server
+       </code>
+      </div>
+      <div class="line number8 index7 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        variables:
+       </code>
+      </div>
+      <div class="line number9 index8 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        username:
+       </code>
+      </div>
+      <div class="line number10 index9 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        default:
+       </code>
+       <code class="yml string">
+        "development"
+       </code>
+      </div>
+      <div class="line number11 index10 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        description:
+       </code>
+       <code class="yml plain">
+        this value is assigned by the service
+                                    provider
+       </code>
+      </div>
+      <div class="line number12 index11 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+     </div>
+    </code>
+   </td>
+   <td>
+    <div class="content-wrapper">
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        before
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_479623">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+             <div class="line number9 index8 alt2">
+              9
+             </div>
+             <div class="line number10 index9 alt1">
+              10
+             </div>
+             <div class="line number11 index10 alt2">
+              11
+             </div>
+             <div class="line number12 index11 alt1">
+              12
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                servers
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string bold">
+                -
+               </code>
+               <code class="yml plain">
+                url
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml plain">
+                https
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml plain">
+                //
+               </code>
+               <code class="yml constants">
+                {
+               </code>
+               <code class="yml plain">
+                username
+               </code>
+               <code class="yml constants">
+                }
+               </code>
+               <code class="yml plain">
+                .gigantic-server.com
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                description:
+               </code>
+               <code class="yml plain">
+                Main server
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                variables:
+               </code>
+              </div>
+              <div class="line number9 index8 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                username:
+               </code>
+              </div>
+              <div class="line number10 index9 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                default:
+               </code>
+               <code class="yml string">
+                "development"
+               </code>
+              </div>
+              <div class="line number11 index10 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                description:
+               </code>
+               <code class="yml plain">
+                this value is assigned by the service
+                                    provider
+               </code>
+              </div>
+              <div class="line number12 index11 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        after
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_126980">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+             <div class="line number9 index8 alt2">
+              9
+             </div>
+             <div class="line number10 index9 alt1">
+              10
+             </div>
+             <div class="line number11 index10 alt2">
+              11
+             </div>
+             <div class="line number12 index11 alt1">
+              12
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                servers
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string bold">
+                -
+               </code>
+               <code class="yml plain">
+                url
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml plain">
+                https
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml plain">
+                //
+               </code>
+               <code class="yml constants">
+                {
+               </code>
+               <code class="yml plain">
+                username
+               </code>
+               <code class="yml constants">
+                }
+               </code>
+               <code class="yml plain">
+                .gigantic-server.com
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                description:
+               </code>
+               <code class="yml plain">
+                Main server
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                variables:
+               </code>
+              </div>
+              <div class="line number9 index8 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                username:
+               </code>
+              </div>
+              <div class="line number10 index9 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                default:
+               </code>
+               <code class="yml string">
+                "development"
+               </code>
+              </div>
+              <div class="line number11 index10 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                description:
+               </code>
+               <code class="yml plain">
+                selected by user
+               </code>
+              </div>
+              <div class="line number12 index11 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <code>
+     paths.[*].[*].servers.variables.description.
+     <value>
+     </value>
+    </code>
+   </td>
+   <td>
+    <code>
+     remove-server-variable-description
+    </code>
+   </td>
+   <td>
+   </td>
+   <td>
+    <code>
+     1 2 3 4 5 6 7 8 9 10 11 12
+    </code>
+   </td>
+   <td>
+    <code>
+     <div class="container" title="Hint: double-click to select code">
+      <div class="line number1 index0 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        openapi:
+       </code>
+       <code class="yml plain">
+        3.0
+       </code>
+      </div>
+      <div class="line number2 index1 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+      <div class="line number3 index2 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        /pets
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number4 index3 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        post:
+       </code>
+      </div>
+      <div class="line number5 index4 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        servers
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number6 index5 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml string bold">
+        -
+       </code>
+       <code class="yml plain">
+        url
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+       <code class="yml plain">
+        https
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+       <code class="yml plain">
+        //
+       </code>
+       <code class="yml constants">
+        {
+       </code>
+       <code class="yml plain">
+        username
+       </code>
+       <code class="yml constants">
+        }
+       </code>
+       <code class="yml plain">
+        .gigantic-server.com
+       </code>
+      </div>
+      <div class="line number7 index6 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        description:
+       </code>
+       <code class="yml plain">
+        Main server
+       </code>
+      </div>
+      <div class="line number8 index7 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        variables:
+       </code>
+      </div>
+      <div class="line number9 index8 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        username:
+       </code>
+      </div>
+      <div class="line number10 index9 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        default:
+       </code>
+       <code class="yml string">
+        "development"
+       </code>
+      </div>
+      <div class="line number11 index10 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        description:
+       </code>
+       <code class="yml plain">
+        this value is assigned by the service
+                                  provider
+       </code>
+      </div>
+      <div class="line number12 index11 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+     </div>
+    </code>
+   </td>
+   <td>
+    <div class="content-wrapper">
+     <p>
+      <br/>
+     </p>
+    </div>
+    <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+     <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+      <b class="code-title">
+       before
+      </b>
+      <span class="collapse-source expand-control" style="">
+       <span class="expand-control-icon icon">
+       </span>
+       <span class="expand-control-text">
+        Expand source
+       </span>
+      </span>
+     </div>
+     <div class="codeContent panelContent pdl hide-toolbar">
+      <div>
+       <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_776733">
+        <div class="toolbar">
+         <span>
+          <a class="toolbar_item command_expandSource expandSource" href="#">
+           expand source
+          </a>
+         </span>
+         <span>
+          <a class="toolbar_item command_help help" href="#">
+           ?
+          </a>
+         </span>
+        </div>
+        <table border="0" cellpadding="0" cellspacing="0">
+         <tbody>
+          <tr>
+           <td class="gutter">
+            <div class="line number1 index0 alt2">
+             1
+            </div>
+            <div class="line number2 index1 alt1">
+             2
+            </div>
+            <div class="line number3 index2 alt2">
+             3
+            </div>
+            <div class="line number4 index3 alt1">
+             4
+            </div>
+            <div class="line number5 index4 alt2">
+             5
+            </div>
+            <div class="line number6 index5 alt1">
+             6
+            </div>
+            <div class="line number7 index6 alt2">
+             7
+            </div>
+            <div class="line number8 index7 alt1">
+             8
+            </div>
+            <div class="line number9 index8 alt2">
+             9
+            </div>
+            <div class="line number10 index9 alt1">
+             10
+            </div>
+            <div class="line number11 index10 alt2">
+             11
+            </div>
+            <div class="line number12 index11 alt1">
+             12
+            </div>
+           </td>
+           <td class="code">
+            <div class="container" title="Hint: double-click to select code">
+             <div class="line number1 index0 alt2" data-bidi-marker="true">
+              <code class="yml variable">
+               openapi:
+              </code>
+              <code class="yml plain">
+               3.0
+              </code>
+             </div>
+             <div class="line number2 index1 alt1" data-bidi-marker="true">
+              <code class="yml spaces">
+              </code>
+              <code class="yml plain">
+               ...
+              </code>
+             </div>
+             <div class="line number3 index2 alt2" data-bidi-marker="true">
+              <code class="yml spaces">
+              </code>
+              <code class="yml plain">
+               /pets
+              </code>
+              <code class="yml constants">
+               :
+              </code>
+             </div>
+             <div class="line number4 index3 alt1" data-bidi-marker="true">
+              <code class="yml spaces">
+              </code>
+              <code class="yml variable">
+               post:
+              </code>
+             </div>
+             <div class="line number5 index4 alt2" data-bidi-marker="true">
+              <code class="yml spaces">
+              </code>
+              <code class="yml plain">
+               servers
+              </code>
+              <code class="yml constants">
+               :
+              </code>
+             </div>
+             <div class="line number6 index5 alt1" data-bidi-marker="true">
+              <code class="yml spaces">
+              </code>
+              <code class="yml string bold">
+               -
+              </code>
+              <code class="yml plain">
+               url
+              </code>
+              <code class="yml constants">
+               :
+              </code>
+              <code class="yml plain">
+               https
+              </code>
+              <code class="yml constants">
+               :
+              </code>
+              <code class="yml plain">
+               //
+              </code>
+              <code class="yml constants">
+               {
+              </code>
+              <code class="yml plain">
+               username
+              </code>
+              <code class="yml constants">
+               }
+              </code>
+              <code class="yml plain">
+               .gigantic-server.com
+              </code>
+             </div>
+             <div class="line number7 index6 alt2" data-bidi-marker="true">
+              <code class="yml spaces">
+              </code>
+              <code class="yml variable">
+               description:
+              </code>
+              <code class="yml plain">
+               Main server
+              </code>
+             </div>
+             <div class="line number8 index7 alt1" data-bidi-marker="true">
+              <code class="yml spaces">
+              </code>
+              <code class="yml variable">
+               variables:
+              </code>
+             </div>
+             <div class="line number9 index8 alt2" data-bidi-marker="true">
+              <code class="yml spaces">
+              </code>
+              <code class="yml variable">
+               username:
+              </code>
+             </div>
+             <div class="line number10 index9 alt1" data-bidi-marker="true">
+              <code class="yml spaces">
+              </code>
+              <code class="yml variable">
+               default:
+              </code>
+              <code class="yml string">
+               "development"
+              </code>
+             </div>
+             <div class="line number11 index10 alt2" data-bidi-marker="true">
+              <code class="yml spaces">
+              </code>
+              <code class="yml variable">
+               description:
+              </code>
+              <code class="yml plain">
+               this value is assigned by the service
+                                  provider
+              </code>
+             </div>
+             <div class="line number12 index11 alt1" data-bidi-marker="true">
+              <code class="yml spaces">
+              </code>
+              <code class="yml plain">
+               ...
+              </code>
+             </div>
+            </div>
+           </td>
+          </tr>
+         </tbody>
+        </table>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+     <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+      <b class="code-title">
+       after
+      </b>
+      <span class="collapse-source expand-control" style="">
+       <span class="expand-control-icon icon">
+       </span>
+       <span class="expand-control-text">
+        Expand source
+       </span>
+      </span>
+     </div>
+     <div class="codeContent panelContent pdl hide-toolbar">
+      <div>
+       <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_509736">
+        <div class="toolbar">
+         <span>
+          <a class="toolbar_item command_expandSource expandSource" href="#">
+           expand source
+          </a>
+         </span>
+         <span>
+          <a class="toolbar_item command_help help" href="#">
+           ?
+          </a>
+         </span>
+        </div>
+        <table border="0" cellpadding="0" cellspacing="0">
+         <tbody>
+          <tr>
+           <td class="gutter">
+            <div class="line number1 index0 alt2">
+             1
+            </div>
+            <div class="line number2 index1 alt1">
+             2
+            </div>
+            <div class="line number3 index2 alt2">
+             3
+            </div>
+            <div class="line number4 index3 alt1">
+             4
+            </div>
+            <div class="line number5 index4 alt2">
+             5
+            </div>
+            <div class="line number6 index5 alt1">
+             6
+            </div>
+            <div class="line number7 index6 alt2">
+             7
+            </div>
+            <div class="line number8 index7 alt1">
+             8
+            </div>
+            <div class="line number9 index8 alt2">
+             9
+            </div>
+            <div class="line number10 index9 alt1">
+             10
+            </div>
+            <div class="line number11 index10 alt2">
+             11
+            </div>
+           </td>
+           <td class="code">
+            <div class="container" title="Hint: double-click to select code">
+             <div class="line number1 index0 alt2" data-bidi-marker="true">
+              <code class="yml variable">
+               openapi:
+              </code>
+              <code class="yml plain">
+               3.0
+              </code>
+             </div>
+             <div class="line number2 index1 alt1" data-bidi-marker="true">
+              <code class="yml spaces">
+              </code>
+              <code class="yml plain">
+               ...
+              </code>
+             </div>
+             <div class="line number3 index2 alt2" data-bidi-marker="true">
+              <code class="yml spaces">
+              </code>
+              <code class="yml plain">
+               /pets
+              </code>
+              <code class="yml constants">
+               :
+              </code>
+             </div>
+             <div class="line number4 index3 alt1" data-bidi-marker="true">
+              <code class="yml spaces">
+              </code>
+              <code class="yml variable">
+               post:
+              </code>
+             </div>
+             <div class="line number5 index4 alt2" data-bidi-marker="true">
+              <code class="yml spaces">
+              </code>
+              <code class="yml plain">
+               servers
+              </code>
+              <code class="yml constants">
+               :
+              </code>
+             </div>
+             <div class="line number6 index5 alt1" data-bidi-marker="true">
+              <code class="yml spaces">
+              </code>
+              <code class="yml string bold">
+               -
+              </code>
+              <code class="yml plain">
+               url
+              </code>
+              <code class="yml constants">
+               :
+              </code>
+              <code class="yml plain">
+               https
+              </code>
+              <code class="yml constants">
+               :
+              </code>
+              <code class="yml plain">
+               //
+              </code>
+              <code class="yml constants">
+               {
+              </code>
+              <code class="yml plain">
+               username
+              </code>
+              <code class="yml constants">
+               }
+              </code>
+              <code class="yml plain">
+               .gigantic-server.com
+              </code>
+             </div>
+             <div class="line number7 index6 alt2" data-bidi-marker="true">
+              <code class="yml spaces">
+              </code>
+              <code class="yml variable">
+               description:
+              </code>
+              <code class="yml plain">
+               Main server
+              </code>
+             </div>
+             <div class="line number8 index7 alt1" data-bidi-marker="true">
+              <code class="yml spaces">
+              </code>
+              <code class="yml variable">
+               variables:
+              </code>
+             </div>
+             <div class="line number9 index8 alt2" data-bidi-marker="true">
+              <code class="yml spaces">
+              </code>
+              <code class="yml variable">
+               username:
+              </code>
+             </div>
+             <div class="line number10 index9 alt1" data-bidi-marker="true">
+              <code class="yml spaces">
+              </code>
+              <code class="yml variable">
+               default:
+              </code>
+              <code class="yml string">
+               "development"
+              </code>
+             </div>
+             <div class="line number11 index10 alt2" data-bidi-marker="true">
+              <code class="yml spaces">
+              </code>
+              <code class="yml plain">
+               ...
+              </code>
+             </div>
+            </div>
+           </td>
+          </tr>
+         </tbody>
+        </table>
+       </div>
+      </div>
+     </div>
+    </div>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <code>
+     paths.[*].[*].security. [*] (no security shall be specified in doc level)
+    </code>
+   </td>
+   <td>
+    <code>
+     add-security-with-authentication-method
+    </code>
+   </td>
+   <td>
+   </td>
+   <td>
+    <code>
+     1 2 3 4 5 6 7 8 9 10 11 12
+    </code>
+   </td>
+   <td>
+    <code>
+     <div class="container" title="Hint: double-click to select code">
+      <div class="line number1 index0 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        openapi:
+       </code>
+       <code class="yml plain">
+        3.0.0
+       </code>
+      </div>
+      <div class="line number2 index1 alt1" data-bidi-marker="true">
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+      <div class="line number3 index2 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        paths:
+       </code>
+      </div>
+      <div class="line number4 index3 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        /pets
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number5 index4 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        post:
+       </code>
+      </div>
+      <div class="line number6 index5 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+      <div class="line number7 index6 alt2" data-bidi-marker="true">
+      </div>
+      <div class="line number8 index7 alt1" data-bidi-marker="true">
+       <code class="yml variable">
+        components:
+       </code>
+      </div>
+      <div class="line number9 index8 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        securitySchemes:
+       </code>
+      </div>
+      <div class="line number10 index9 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        basicAuth:
+       </code>
+      </div>
+      <div class="line number11 index10 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        type:
+       </code>
+       <code class="yml plain">
+        http
+       </code>
+      </div>
+      <div class="line number12 index11 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        scheme:
+       </code>
+       <code class="yml plain">
+        basic
+       </code>
+      </div>
+     </div>
+    </code>
+   </td>
+   <td>
+    <div class="content-wrapper">
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        before
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_435824">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+             <div class="line number9 index8 alt2">
+              9
+             </div>
+             <div class="line number10 index9 alt1">
+              10
+             </div>
+             <div class="line number11 index10 alt2">
+              11
+             </div>
+             <div class="line number12 index11 alt1">
+              12
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml variable">
+                components:
+               </code>
+              </div>
+              <div class="line number9 index8 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                securitySchemes:
+               </code>
+              </div>
+              <div class="line number10 index9 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                basicAuth:
+               </code>
+              </div>
+              <div class="line number11 index10 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                type:
+               </code>
+               <code class="yml plain">
+                http
+               </code>
+              </div>
+              <div class="line number12 index11 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                scheme:
+               </code>
+               <code class="yml plain">
+                basic
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        after
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_202083">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+             <div class="line number9 index8 alt2">
+              9
+             </div>
+             <div class="line number10 index9 alt1">
+              10
+             </div>
+             <div class="line number11 index10 alt2">
+              11
+             </div>
+             <div class="line number12 index11 alt1">
+              12
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                security
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string bold">
+                -
+               </code>
+               <code class="yml plain">
+                basicAuth
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml constants">
+                [
+               </code>
+               <code class="yml constants">
+                ]
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml variable">
+                components:
+               </code>
+              </div>
+              <div class="line number9 index8 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                securitySchemes:
+               </code>
+              </div>
+              <div class="line number10 index9 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                basicAuth:
+               </code>
+              </div>
+              <div class="line number11 index10 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                type:
+               </code>
+               <code class="yml plain">
+                http
+               </code>
+              </div>
+              <div class="line number12 index11 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                scheme:
+               </code>
+               <code class="yml plain">
+                basic
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <code>
+     paths.[*].[*].security. [*]
+    </code>
+   </td>
+   <td>
+    <code>
+     add-alternative-authentication-method
+    </code>
+   </td>
+   <td>
+    (combine the security using logical OR)
+   </td>
+   <td>
+    <code>
+     1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17
+    </code>
+   </td>
+   <td>
+    <code>
+     <div class="container" title="Hint: double-click to select code">
+      <div class="line number1 index0 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        openapi:
+       </code>
+       <code class="yml plain">
+        3.0.0
+       </code>
+      </div>
+      <div class="line number2 index1 alt1" data-bidi-marker="true">
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+      <div class="line number3 index2 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        paths:
+       </code>
+      </div>
+      <div class="line number4 index3 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        /pets
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number5 index4 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        post:
+       </code>
+      </div>
+      <div class="line number6 index5 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        security
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number7 index6 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml string bold">
+        -
+       </code>
+       <code class="yml plain">
+        ApiKeyAuth1
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+       <code class="yml constants">
+        [
+       </code>
+       <code class="yml constants">
+        ]
+       </code>
+      </div>
+      <div class="line number8 index7 alt1" data-bidi-marker="true">
+       <code class="yml variable">
+        components:
+       </code>
+      </div>
+      <div class="line number9 index8 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        securitySchemes:
+       </code>
+      </div>
+      <div class="line number10 index9 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        ApiKeyAuth1:
+       </code>
+      </div>
+      <div class="line number11 index10 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        type:
+       </code>
+       <code class="yml plain">
+        apiKey
+       </code>
+      </div>
+      <div class="line number12 index11 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        in:
+       </code>
+       <code class="yml plain">
+        header
+       </code>
+      </div>
+      <div class="line number13 index12 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        name:
+       </code>
+       <code class="yml plain">
+        X-API-KEY
+       </code>
+      </div>
+      <div class="line number14 index13 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        ApiKeyAuth2:
+       </code>
+      </div>
+      <div class="line number15 index14 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        type:
+       </code>
+       <code class="yml plain">
+        apiKey
+       </code>
+      </div>
+      <div class="line number16 index15 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        in:
+       </code>
+       <code class="yml plain">
+        header
+       </code>
+      </div>
+      <div class="line number17 index16 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        name:
+       </code>
+       <code class="yml plain">
+        X-API-KEY
+       </code>
+      </div>
+     </div>
+    </code>
+   </td>
+   <td>
+    <div class="content-wrapper">
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        before
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_552336">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+             <div class="line number9 index8 alt2">
+              9
+             </div>
+             <div class="line number10 index9 alt1">
+              10
+             </div>
+             <div class="line number11 index10 alt2">
+              11
+             </div>
+             <div class="line number12 index11 alt1">
+              12
+             </div>
+             <div class="line number13 index12 alt2">
+              13
+             </div>
+             <div class="line number14 index13 alt1">
+              14
+             </div>
+             <div class="line number15 index14 alt2">
+              15
+             </div>
+             <div class="line number16 index15 alt1">
+              16
+             </div>
+             <div class="line number17 index16 alt2">
+              17
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                security
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string bold">
+                -
+               </code>
+               <code class="yml plain">
+                ApiKeyAuth1
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml constants">
+                [
+               </code>
+               <code class="yml constants">
+                ]
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml variable">
+                components:
+               </code>
+              </div>
+              <div class="line number9 index8 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                securitySchemes:
+               </code>
+              </div>
+              <div class="line number10 index9 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                ApiKeyAuth1:
+               </code>
+              </div>
+              <div class="line number11 index10 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                type:
+               </code>
+               <code class="yml plain">
+                apiKey
+               </code>
+              </div>
+              <div class="line number12 index11 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                in:
+               </code>
+               <code class="yml plain">
+                header
+               </code>
+              </div>
+              <div class="line number13 index12 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                name:
+               </code>
+               <code class="yml plain">
+                X-API-KEY
+               </code>
+              </div>
+              <div class="line number14 index13 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                ApiKeyAuth2:
+               </code>
+              </div>
+              <div class="line number15 index14 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                type:
+               </code>
+               <code class="yml plain">
+                apiKey
+               </code>
+              </div>
+              <div class="line number16 index15 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                in:
+               </code>
+               <code class="yml plain">
+                header
+               </code>
+              </div>
+              <div class="line number17 index16 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                name:
+               </code>
+               <code class="yml plain">
+                X-API-KEY
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        after
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_935247">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+             <div class="line number9 index8 alt2">
+              9
+             </div>
+             <div class="line number10 index9 alt1">
+              10
+             </div>
+             <div class="line number11 index10 alt2">
+              11
+             </div>
+             <div class="line number12 index11 alt1">
+              12
+             </div>
+             <div class="line number13 index12 alt2">
+              13
+             </div>
+             <div class="line number14 index13 alt1">
+              14
+             </div>
+             <div class="line number15 index14 alt2">
+              15
+             </div>
+             <div class="line number16 index15 alt1">
+              16
+             </div>
+             <div class="line number17 index16 alt2">
+              17
+             </div>
+             <div class="line number18 index17 alt1">
+              18
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                security
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string bold">
+                -
+               </code>
+               <code class="yml plain">
+                ApiKeyAuth1
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml constants">
+                [
+               </code>
+               <code class="yml constants">
+                ]
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string bold">
+                -
+               </code>
+               <code class="yml plain">
+                ApiKeyAuth2
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml constants">
+                [
+               </code>
+               <code class="yml constants">
+                ]
+               </code>
+              </div>
+              <div class="line number9 index8 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                components:
+               </code>
+              </div>
+              <div class="line number10 index9 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                securitySchemes:
+               </code>
+              </div>
+              <div class="line number11 index10 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                ApiKeyAuth1:
+               </code>
+              </div>
+              <div class="line number12 index11 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                type:
+               </code>
+               <code class="yml plain">
+                apiKey
+               </code>
+              </div>
+              <div class="line number13 index12 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                in:
+               </code>
+               <code class="yml plain">
+                header
+               </code>
+              </div>
+              <div class="line number14 index13 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                name:
+               </code>
+               <code class="yml plain">
+                X-API-KEY
+               </code>
+              </div>
+              <div class="line number15 index14 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                ApiKeyAuth2:
+               </code>
+              </div>
+              <div class="line number16 index15 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                type:
+               </code>
+               <code class="yml plain">
+                apiKey
+               </code>
+              </div>
+              <div class="line number17 index16 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                in:
+               </code>
+               <code class="yml plain">
+                header
+               </code>
+              </div>
+              <div class="line number18 index17 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                name:
+               </code>
+               <code class="yml plain">
+                X-API-KEY
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <code>
+    </code>
+   </td>
+   <td>
+    <code>
+     add-mandatory-authentication-method
+    </code>
+   </td>
+   <td>
+    (combine the security using logical AND)
+   </td>
+   <td>
+    <code>
+     1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17
+    </code>
+   </td>
+   <td>
+    <code>
+     <div class="container" title="Hint: double-click to select code">
+      <div class="line number1 index0 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        openapi:
+       </code>
+       <code class="yml plain">
+        3.0.0
+       </code>
+      </div>
+      <div class="line number2 index1 alt1" data-bidi-marker="true">
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+      <div class="line number3 index2 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        paths:
+       </code>
+      </div>
+      <div class="line number4 index3 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        /pets
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number5 index4 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        post:
+       </code>
+      </div>
+      <div class="line number6 index5 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        security
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number7 index6 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml string bold">
+        -
+       </code>
+       <code class="yml plain">
+        ApiKeyAuth1
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+       <code class="yml constants">
+        [
+       </code>
+       <code class="yml constants">
+        ]
+       </code>
+      </div>
+      <div class="line number8 index7 alt1" data-bidi-marker="true">
+       <code class="yml variable">
+        components:
+       </code>
+      </div>
+      <div class="line number9 index8 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        securitySchemes:
+       </code>
+      </div>
+      <div class="line number10 index9 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        ApiKeyAuth1:
+       </code>
+      </div>
+      <div class="line number11 index10 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        type:
+       </code>
+       <code class="yml plain">
+        apiKey
+       </code>
+      </div>
+      <div class="line number12 index11 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        in:
+       </code>
+       <code class="yml plain">
+        header
+       </code>
+      </div>
+      <div class="line number13 index12 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        name:
+       </code>
+       <code class="yml plain">
+        X-API-KEY
+       </code>
+      </div>
+      <div class="line number14 index13 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        ApiKeyAuth2:
+       </code>
+      </div>
+      <div class="line number15 index14 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        type:
+       </code>
+       <code class="yml plain">
+        apiKey
+       </code>
+      </div>
+      <div class="line number16 index15 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        in:
+       </code>
+       <code class="yml plain">
+        header
+       </code>
+      </div>
+      <div class="line number17 index16 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        name:
+       </code>
+       <code class="yml plain">
+        X-API-KEY
+       </code>
+      </div>
+     </div>
+    </code>
+   </td>
+   <td>
+    <div class="content-wrapper">
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        before
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_482224">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+             <div class="line number9 index8 alt2">
+              9
+             </div>
+             <div class="line number10 index9 alt1">
+              10
+             </div>
+             <div class="line number11 index10 alt2">
+              11
+             </div>
+             <div class="line number12 index11 alt1">
+              12
+             </div>
+             <div class="line number13 index12 alt2">
+              13
+             </div>
+             <div class="line number14 index13 alt1">
+              14
+             </div>
+             <div class="line number15 index14 alt2">
+              15
+             </div>
+             <div class="line number16 index15 alt1">
+              16
+             </div>
+             <div class="line number17 index16 alt2">
+              17
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                security
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string bold">
+                -
+               </code>
+               <code class="yml plain">
+                ApiKeyAuth1
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml constants">
+                [
+               </code>
+               <code class="yml constants">
+                ]
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml variable">
+                components:
+               </code>
+              </div>
+              <div class="line number9 index8 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                securitySchemes:
+               </code>
+              </div>
+              <div class="line number10 index9 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                ApiKeyAuth1:
+               </code>
+              </div>
+              <div class="line number11 index10 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                type:
+               </code>
+               <code class="yml plain">
+                apiKey
+               </code>
+              </div>
+              <div class="line number12 index11 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                in:
+               </code>
+               <code class="yml plain">
+                header
+               </code>
+              </div>
+              <div class="line number13 index12 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                name:
+               </code>
+               <code class="yml plain">
+                X-API-KEY
+               </code>
+              </div>
+              <div class="line number14 index13 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                ApiKeyAuth2:
+               </code>
+              </div>
+              <div class="line number15 index14 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                type:
+               </code>
+               <code class="yml plain">
+                apiKey
+               </code>
+              </div>
+              <div class="line number16 index15 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                in:
+               </code>
+               <code class="yml plain">
+                header
+               </code>
+              </div>
+              <div class="line number17 index16 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                name:
+               </code>
+               <code class="yml plain">
+                X-API-KEY
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        after
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_692753">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+             <div class="line number9 index8 alt2">
+              9
+             </div>
+             <div class="line number10 index9 alt1">
+              10
+             </div>
+             <div class="line number11 index10 alt2">
+              11
+             </div>
+             <div class="line number12 index11 alt1">
+              12
+             </div>
+             <div class="line number13 index12 alt2">
+              13
+             </div>
+             <div class="line number14 index13 alt1">
+              14
+             </div>
+             <div class="line number15 index14 alt2">
+              15
+             </div>
+             <div class="line number16 index15 alt1">
+              16
+             </div>
+             <div class="line number17 index16 alt2">
+              17
+             </div>
+             <div class="line number18 index17 alt1">
+              18
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                security
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string bold">
+                -
+               </code>
+               <code class="yml plain">
+                ApiKeyAuth1
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml constants">
+                [
+               </code>
+               <code class="yml constants">
+                ]
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                ApiKeyAuth2:
+               </code>
+               <code class="yml constants">
+                [
+               </code>
+               <code class="yml constants">
+                ]
+               </code>
+              </div>
+              <div class="line number9 index8 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                components:
+               </code>
+              </div>
+              <div class="line number10 index9 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                securitySchemes:
+               </code>
+              </div>
+              <div class="line number11 index10 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                ApiKeyAuth1:
+               </code>
+              </div>
+              <div class="line number12 index11 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                type:
+               </code>
+               <code class="yml plain">
+                apiKey
+               </code>
+              </div>
+              <div class="line number13 index12 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                in:
+               </code>
+               <code class="yml plain">
+                header
+               </code>
+              </div>
+              <div class="line number14 index13 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                name:
+               </code>
+               <code class="yml plain">
+                X-API-KEY
+               </code>
+              </div>
+              <div class="line number15 index14 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                ApiKeyAuth2:
+               </code>
+              </div>
+              <div class="line number16 index15 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                type:
+               </code>
+               <code class="yml plain">
+                apiKey
+               </code>
+              </div>
+              <div class="line number17 index16 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                in:
+               </code>
+               <code class="yml plain">
+                header
+               </code>
+              </div>
+              <div class="line number18 index17 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                name:
+               </code>
+               <code class="yml plain">
+                X-API-KEY
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <code>
+    </code>
+   </td>
+   <td>
+    <code>
+     remove-alternative-authentication-method
+    </code>
+   </td>
+   <td>
+    (with logical OR)
+   </td>
+   <td>
+    <code>
+     1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18
+    </code>
+   </td>
+   <td>
+    <code>
+     <div class="container" title="Hint: double-click to select code">
+      <div class="line number1 index0 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        openapi:
+       </code>
+       <code class="yml plain">
+        3.0.0
+       </code>
+      </div>
+      <div class="line number2 index1 alt1" data-bidi-marker="true">
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+      <div class="line number3 index2 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        paths:
+       </code>
+      </div>
+      <div class="line number4 index3 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        /pets
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number5 index4 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        post:
+       </code>
+      </div>
+      <div class="line number6 index5 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        security
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number7 index6 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml string bold">
+        -
+       </code>
+       <code class="yml plain">
+        ApiKeyAuth1
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+       <code class="yml constants">
+        [
+       </code>
+       <code class="yml constants">
+        ]
+       </code>
+      </div>
+      <div class="line number8 index7 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml string bold">
+        -
+       </code>
+       <code class="yml plain">
+        ApiKeyAuth2
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+       <code class="yml constants">
+        [
+       </code>
+       <code class="yml constants">
+        ]
+       </code>
+      </div>
+      <div class="line number9 index8 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        components:
+       </code>
+      </div>
+      <div class="line number10 index9 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        securitySchemes:
+       </code>
+      </div>
+      <div class="line number11 index10 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        ApiKeyAuth1:
+       </code>
+      </div>
+      <div class="line number12 index11 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        type:
+       </code>
+       <code class="yml plain">
+        apiKey
+       </code>
+      </div>
+      <div class="line number13 index12 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        in:
+       </code>
+       <code class="yml plain">
+        header
+       </code>
+      </div>
+      <div class="line number14 index13 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        name:
+       </code>
+       <code class="yml plain">
+        X-API-KEY
+       </code>
+      </div>
+      <div class="line number15 index14 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        ApiKeyAuth2:
+       </code>
+      </div>
+      <div class="line number16 index15 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        type:
+       </code>
+       <code class="yml plain">
+        apiKey
+       </code>
+      </div>
+      <div class="line number17 index16 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        in:
+       </code>
+       <code class="yml plain">
+        header
+       </code>
+      </div>
+      <div class="line number18 index17 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        name:
+       </code>
+       <code class="yml plain">
+        X-API-KEY
+       </code>
+      </div>
+     </div>
+    </code>
+   </td>
+   <td>
+    <div class="content-wrapper">
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        after
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_102336">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+             <div class="line number9 index8 alt2">
+              9
+             </div>
+             <div class="line number10 index9 alt1">
+              10
+             </div>
+             <div class="line number11 index10 alt2">
+              11
+             </div>
+             <div class="line number12 index11 alt1">
+              12
+             </div>
+             <div class="line number13 index12 alt2">
+              13
+             </div>
+             <div class="line number14 index13 alt1">
+              14
+             </div>
+             <div class="line number15 index14 alt2">
+              15
+             </div>
+             <div class="line number16 index15 alt1">
+              16
+             </div>
+             <div class="line number17 index16 alt2">
+              17
+             </div>
+             <div class="line number18 index17 alt1">
+              18
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                security
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string bold">
+                -
+               </code>
+               <code class="yml plain">
+                ApiKeyAuth1
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml constants">
+                [
+               </code>
+               <code class="yml constants">
+                ]
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string bold">
+                -
+               </code>
+               <code class="yml plain">
+                ApiKeyAuth2
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml constants">
+                [
+               </code>
+               <code class="yml constants">
+                ]
+               </code>
+              </div>
+              <div class="line number9 index8 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                components:
+               </code>
+              </div>
+              <div class="line number10 index9 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                securitySchemes:
+               </code>
+              </div>
+              <div class="line number11 index10 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                ApiKeyAuth1:
+               </code>
+              </div>
+              <div class="line number12 index11 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                type:
+               </code>
+               <code class="yml plain">
+                apiKey
+               </code>
+              </div>
+              <div class="line number13 index12 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                in:
+               </code>
+               <code class="yml plain">
+                header
+               </code>
+              </div>
+              <div class="line number14 index13 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                name:
+               </code>
+               <code class="yml plain">
+                X-API-KEY
+               </code>
+              </div>
+              <div class="line number15 index14 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                ApiKeyAuth2:
+               </code>
+              </div>
+              <div class="line number16 index15 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                type:
+               </code>
+               <code class="yml plain">
+                apiKey
+               </code>
+              </div>
+              <div class="line number17 index16 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                in:
+               </code>
+               <code class="yml plain">
+                header
+               </code>
+              </div>
+              <div class="line number18 index17 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                name:
+               </code>
+               <code class="yml plain">
+                X-API-KEY
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        after
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_148349">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+             <div class="line number9 index8 alt2">
+              9
+             </div>
+             <div class="line number10 index9 alt1">
+              10
+             </div>
+             <div class="line number11 index10 alt2">
+              11
+             </div>
+             <div class="line number12 index11 alt1">
+              12
+             </div>
+             <div class="line number13 index12 alt2">
+              13
+             </div>
+             <div class="line number14 index13 alt1">
+              14
+             </div>
+             <div class="line number15 index14 alt2">
+              15
+             </div>
+             <div class="line number16 index15 alt1">
+              16
+             </div>
+             <div class="line number17 index16 alt2">
+              17
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                security
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string bold">
+                -
+               </code>
+               <code class="yml plain">
+                ApiKeyAuth1
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml constants">
+                [
+               </code>
+               <code class="yml constants">
+                ]
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml variable">
+                components:
+               </code>
+              </div>
+              <div class="line number9 index8 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                securitySchemes:
+               </code>
+              </div>
+              <div class="line number10 index9 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                ApiKeyAuth1:
+               </code>
+              </div>
+              <div class="line number11 index10 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                type:
+               </code>
+               <code class="yml plain">
+                apiKey
+               </code>
+              </div>
+              <div class="line number12 index11 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                in:
+               </code>
+               <code class="yml plain">
+                header
+               </code>
+              </div>
+              <div class="line number13 index12 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                name:
+               </code>
+               <code class="yml plain">
+                X-API-KEY
+               </code>
+              </div>
+              <div class="line number14 index13 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                ApiKeyAuth2:
+               </code>
+              </div>
+              <div class="line number15 index14 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                type:
+               </code>
+               <code class="yml plain">
+                apiKey
+               </code>
+              </div>
+              <div class="line number16 index15 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                in:
+               </code>
+               <code class="yml plain">
+                header
+               </code>
+              </div>
+              <div class="line number17 index16 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                name:
+               </code>
+               <code class="yml plain">
+                X-API-KEY
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <code>
+    </code>
+   </td>
+   <td>
+    <code>
+     remove-mandatory-authentication-method
+    </code>
+   </td>
+   <td>
+    (with logical AND)
+   </td>
+   <td>
+    <code>
+     1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18
+    </code>
+   </td>
+   <td>
+    <code>
+     <div class="container" title="Hint: double-click to select code">
+      <div class="line number1 index0 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        openapi:
+       </code>
+       <code class="yml plain">
+        3.0.0
+       </code>
+      </div>
+      <div class="line number2 index1 alt1" data-bidi-marker="true">
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+      <div class="line number3 index2 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        paths:
+       </code>
+      </div>
+      <div class="line number4 index3 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        /pets
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number5 index4 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        post:
+       </code>
+      </div>
+      <div class="line number6 index5 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        security
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number7 index6 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml string bold">
+        -
+       </code>
+       <code class="yml plain">
+        ApiKeyAuth1
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+       <code class="yml constants">
+        [
+       </code>
+       <code class="yml constants">
+        ]
+       </code>
+      </div>
+      <div class="line number8 index7 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        ApiKeyAuth2:
+       </code>
+       <code class="yml constants">
+        [
+       </code>
+       <code class="yml constants">
+        ]
+       </code>
+      </div>
+      <div class="line number9 index8 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        components:
+       </code>
+      </div>
+      <div class="line number10 index9 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        securitySchemes:
+       </code>
+      </div>
+      <div class="line number11 index10 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        ApiKeyAuth1:
+       </code>
+      </div>
+      <div class="line number12 index11 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        type:
+       </code>
+       <code class="yml plain">
+        apiKey
+       </code>
+      </div>
+      <div class="line number13 index12 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        in:
+       </code>
+       <code class="yml plain">
+        header
+       </code>
+      </div>
+      <div class="line number14 index13 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        name:
+       </code>
+       <code class="yml plain">
+        X-API-KEY
+       </code>
+      </div>
+      <div class="line number15 index14 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        ApiKeyAuth2:
+       </code>
+      </div>
+      <div class="line number16 index15 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        type:
+       </code>
+       <code class="yml plain">
+        apiKey
+       </code>
+      </div>
+      <div class="line number17 index16 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        in:
+       </code>
+       <code class="yml plain">
+        header
+       </code>
+      </div>
+      <div class="line number18 index17 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        name:
+       </code>
+       <code class="yml plain">
+        X-API-KEY
+       </code>
+      </div>
+     </div>
+    </code>
+   </td>
+   <td>
+    <div class="content-wrapper">
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        after
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_940065">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+             <div class="line number9 index8 alt2">
+              9
+             </div>
+             <div class="line number10 index9 alt1">
+              10
+             </div>
+             <div class="line number11 index10 alt2">
+              11
+             </div>
+             <div class="line number12 index11 alt1">
+              12
+             </div>
+             <div class="line number13 index12 alt2">
+              13
+             </div>
+             <div class="line number14 index13 alt1">
+              14
+             </div>
+             <div class="line number15 index14 alt2">
+              15
+             </div>
+             <div class="line number16 index15 alt1">
+              16
+             </div>
+             <div class="line number17 index16 alt2">
+              17
+             </div>
+             <div class="line number18 index17 alt1">
+              18
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                security
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string bold">
+                -
+               </code>
+               <code class="yml plain">
+                ApiKeyAuth1
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml constants">
+                [
+               </code>
+               <code class="yml constants">
+                ]
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                ApiKeyAuth2:
+               </code>
+               <code class="yml constants">
+                [
+               </code>
+               <code class="yml constants">
+                ]
+               </code>
+              </div>
+              <div class="line number9 index8 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                components:
+               </code>
+              </div>
+              <div class="line number10 index9 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                securitySchemes:
+               </code>
+              </div>
+              <div class="line number11 index10 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                ApiKeyAuth1:
+               </code>
+              </div>
+              <div class="line number12 index11 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                type:
+               </code>
+               <code class="yml plain">
+                apiKey
+               </code>
+              </div>
+              <div class="line number13 index12 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                in:
+               </code>
+               <code class="yml plain">
+                header
+               </code>
+              </div>
+              <div class="line number14 index13 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                name:
+               </code>
+               <code class="yml plain">
+                X-API-KEY
+               </code>
+              </div>
+              <div class="line number15 index14 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                ApiKeyAuth2:
+               </code>
+              </div>
+              <div class="line number16 index15 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                type:
+               </code>
+               <code class="yml plain">
+                apiKey
+               </code>
+              </div>
+              <div class="line number17 index16 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                in:
+               </code>
+               <code class="yml plain">
+                header
+               </code>
+              </div>
+              <div class="line number18 index17 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                name:
+               </code>
+               <code class="yml plain">
+                X-API-KEY
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        after
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_243142">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+             <div class="line number9 index8 alt2">
+              9
+             </div>
+             <div class="line number10 index9 alt1">
+              10
+             </div>
+             <div class="line number11 index10 alt2">
+              11
+             </div>
+             <div class="line number12 index11 alt1">
+              12
+             </div>
+             <div class="line number13 index12 alt2">
+              13
+             </div>
+             <div class="line number14 index13 alt1">
+              14
+             </div>
+             <div class="line number15 index14 alt2">
+              15
+             </div>
+             <div class="line number16 index15 alt1">
+              16
+             </div>
+             <div class="line number17 index16 alt2">
+              17
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                security
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string bold">
+                -
+               </code>
+               <code class="yml plain">
+                ApiKeyAuth1
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml constants">
+                [
+               </code>
+               <code class="yml constants">
+                ]
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml variable">
+                components:
+               </code>
+              </div>
+              <div class="line number9 index8 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                securitySchemes:
+               </code>
+              </div>
+              <div class="line number10 index9 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                ApiKeyAuth1:
+               </code>
+              </div>
+              <div class="line number11 index10 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                type:
+               </code>
+               <code class="yml plain">
+                apiKey
+               </code>
+              </div>
+              <div class="line number12 index11 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                in:
+               </code>
+               <code class="yml plain">
+                header
+               </code>
+              </div>
+              <div class="line number13 index12 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                name:
+               </code>
+               <code class="yml plain">
+                X-API-KEY
+               </code>
+              </div>
+              <div class="line number14 index13 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                ApiKeyAuth2:
+               </code>
+              </div>
+              <div class="line number15 index14 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                type:
+               </code>
+               <code class="yml plain">
+                apiKey
+               </code>
+              </div>
+              <div class="line number16 index15 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                in:
+               </code>
+               <code class="yml plain">
+                header
+               </code>
+              </div>
+              <div class="line number17 index16 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                name:
+               </code>
+               <code class="yml plain">
+                X-API-KEY
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <code>
+    </code>
+   </td>
+   <td>
+    <code>
+     remove-security-with-authentication-method
+    </code>
+   </td>
+   <td>
+   </td>
+   <td>
+    <code>
+     1 2 3 4 5 6 7 8 9 10 11 12
+    </code>
+   </td>
+   <td>
+    <code>
+     <div class="container" title="Hint: double-click to select code">
+      <div class="line number1 index0 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        openapi:
+       </code>
+       <code class="yml plain">
+        3.0.0
+       </code>
+      </div>
+      <div class="line number2 index1 alt1" data-bidi-marker="true">
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+      <div class="line number3 index2 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        paths:
+       </code>
+      </div>
+      <div class="line number4 index3 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        /pets
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number5 index4 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        post:
+       </code>
+      </div>
+      <div class="line number6 index5 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        security
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number7 index6 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml string bold">
+        -
+       </code>
+       <code class="yml plain">
+        BasicAuth
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+       <code class="yml constants">
+        [
+       </code>
+       <code class="yml constants">
+        ]
+       </code>
+      </div>
+      <div class="line number8 index7 alt1" data-bidi-marker="true">
+       <code class="yml variable">
+        components:
+       </code>
+      </div>
+      <div class="line number9 index8 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        securitySchemes:
+       </code>
+      </div>
+      <div class="line number10 index9 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        BasicAuth:
+       </code>
+      </div>
+      <div class="line number11 index10 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        type:
+       </code>
+       <code class="yml plain">
+        http
+       </code>
+      </div>
+      <div class="line number12 index11 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        scheme:
+       </code>
+       <code class="yml plain">
+        basic
+       </code>
+      </div>
+     </div>
+    </code>
+   </td>
+   <td>
+    <div class="content-wrapper">
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        before
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_685344">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+             <div class="line number9 index8 alt2">
+              9
+             </div>
+             <div class="line number10 index9 alt1">
+              10
+             </div>
+             <div class="line number11 index10 alt2">
+              11
+             </div>
+             <div class="line number12 index11 alt1">
+              12
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                security
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string bold">
+                -
+               </code>
+               <code class="yml plain">
+                BasicAuth
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml constants">
+                [
+               </code>
+               <code class="yml constants">
+                ]
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml variable">
+                components:
+               </code>
+              </div>
+              <div class="line number9 index8 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                securitySchemes:
+               </code>
+              </div>
+              <div class="line number10 index9 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                BasicAuth:
+               </code>
+              </div>
+              <div class="line number11 index10 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                type:
+               </code>
+               <code class="yml plain">
+                http
+               </code>
+              </div>
+              <div class="line number12 index11 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                scheme:
+               </code>
+               <code class="yml plain">
+                basic
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        after
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_156953">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+             <div class="line number9 index8 alt2">
+              9
+             </div>
+             <div class="line number10 index9 alt1">
+              10
+             </div>
+             <div class="line number11 index10 alt2">
+              11
+             </div>
+             <div class="line number12 index11 alt1">
+              12
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml variable">
+                components:
+               </code>
+              </div>
+              <div class="line number9 index8 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                securitySchemes:
+               </code>
+              </div>
+              <div class="line number10 index9 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                BasicAuth:
+               </code>
+              </div>
+              <div class="line number11 index10 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                type:
+               </code>
+               <code class="yml plain">
+                http
+               </code>
+              </div>
+              <div class="line number12 index11 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                scheme:
+               </code>
+               <code class="yml plain">
+                basic
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <code>
+     paths.[*].[*].security.[*]. [
+     <scope>
+      ] (for OAuth)
+     </scope>
+    </code>
+   </td>
+   <td>
+    <code>
+     add-scope-for-authentication-method
+    </code>
+   </td>
+   <td>
+   </td>
+   <td>
+    <code>
+     1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18
+    </code>
+   </td>
+   <td>
+    <code>
+     <div class="container" title="Hint: double-click to select code">
+      <div class="line number1 index0 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        openapi:
+       </code>
+       <code class="yml plain">
+        3.0.0
+       </code>
+      </div>
+      <div class="line number2 index1 alt1" data-bidi-marker="true">
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+      <div class="line number3 index2 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        paths:
+       </code>
+      </div>
+      <div class="line number4 index3 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        /pets
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number5 index4 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        post:
+       </code>
+      </div>
+      <div class="line number6 index5 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        security
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number7 index6 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml string bold">
+        -
+       </code>
+       <code class="yml plain">
+        oAuthSample
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+       <code class="yml constants">
+        [
+       </code>
+       <code class="yml constants">
+        ]
+       </code>
+      </div>
+      <div class="line number8 index7 alt1" data-bidi-marker="true">
+       <code class="yml variable">
+        components:
+       </code>
+      </div>
+      <div class="line number9 index8 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        securitySchemes:
+       </code>
+      </div>
+      <div class="line number10 index9 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        oAuthSample:
+       </code>
+      </div>
+      <div class="line number11 index10 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        type:
+       </code>
+       <code class="yml plain">
+        oauth2
+       </code>
+      </div>
+      <div class="line number12 index11 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        description:
+       </code>
+       <code class="yml plain">
+        This API uses OAuth 2 with the implicit
+                                    grant flow.
+       </code>
+      </div>
+      <div class="line number13 index12 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        flows:
+       </code>
+      </div>
+      <div class="line number14 index13 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        implicit:
+       </code>
+      </div>
+      <div class="line number15 index14 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        authorizationUrl:
+       </code>
+       <code class="yml plain">
+        https
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+       <code class="yml plain">
+        //api.example.com/oauth2/authorize
+       </code>
+      </div>
+      <div class="line number16 index15 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        scopes:
+       </code>
+      </div>
+      <div class="line number17 index16 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        read_pets:
+       </code>
+       <code class="yml plain">
+        read your pets
+       </code>
+      </div>
+      <div class="line number18 index17 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        write_pets:
+       </code>
+       <code class="yml plain">
+        modify pets in your account
+       </code>
+      </div>
+     </div>
+    </code>
+   </td>
+   <td>
+    <div class="content-wrapper">
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        before
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_652237">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+             <div class="line number9 index8 alt2">
+              9
+             </div>
+             <div class="line number10 index9 alt1">
+              10
+             </div>
+             <div class="line number11 index10 alt2">
+              11
+             </div>
+             <div class="line number12 index11 alt1">
+              12
+             </div>
+             <div class="line number13 index12 alt2">
+              13
+             </div>
+             <div class="line number14 index13 alt1">
+              14
+             </div>
+             <div class="line number15 index14 alt2">
+              15
+             </div>
+             <div class="line number16 index15 alt1">
+              16
+             </div>
+             <div class="line number17 index16 alt2">
+              17
+             </div>
+             <div class="line number18 index17 alt1">
+              18
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                security
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string bold">
+                -
+               </code>
+               <code class="yml plain">
+                oAuthSample
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml constants">
+                [
+               </code>
+               <code class="yml constants">
+                ]
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml variable">
+                components:
+               </code>
+              </div>
+              <div class="line number9 index8 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                securitySchemes:
+               </code>
+              </div>
+              <div class="line number10 index9 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                oAuthSample:
+               </code>
+              </div>
+              <div class="line number11 index10 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                type:
+               </code>
+               <code class="yml plain">
+                oauth2
+               </code>
+              </div>
+              <div class="line number12 index11 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                description:
+               </code>
+               <code class="yml plain">
+                This API uses OAuth 2 with the implicit
+                                    grant flow.
+               </code>
+              </div>
+              <div class="line number13 index12 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                flows:
+               </code>
+              </div>
+              <div class="line number14 index13 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                implicit:
+               </code>
+              </div>
+              <div class="line number15 index14 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                authorizationUrl:
+               </code>
+               <code class="yml plain">
+                https
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml plain">
+                //api.example.com/oauth2/authorize
+               </code>
+              </div>
+              <div class="line number16 index15 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                scopes:
+               </code>
+              </div>
+              <div class="line number17 index16 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                read_pets:
+               </code>
+               <code class="yml plain">
+                read your pets
+               </code>
+              </div>
+              <div class="line number18 index17 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                write_pets:
+               </code>
+               <code class="yml plain">
+                modify pets in your account
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        before
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_743274">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+             <div class="line number9 index8 alt2">
+              9
+             </div>
+             <div class="line number10 index9 alt1">
+              10
+             </div>
+             <div class="line number11 index10 alt2">
+              11
+             </div>
+             <div class="line number12 index11 alt1">
+              12
+             </div>
+             <div class="line number13 index12 alt2">
+              13
+             </div>
+             <div class="line number14 index13 alt1">
+              14
+             </div>
+             <div class="line number15 index14 alt2">
+              15
+             </div>
+             <div class="line number16 index15 alt1">
+              16
+             </div>
+             <div class="line number17 index16 alt2">
+              17
+             </div>
+             <div class="line number18 index17 alt1">
+              18
+             </div>
+             <div class="line number19 index18 alt2">
+              19
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                security
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string bold">
+                -
+               </code>
+               <code class="yml plain">
+                oAuthSample
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string bold">
+                -
+               </code>
+               <code class="yml plain">
+                read_pets
+               </code>
+              </div>
+              <div class="line number9 index8 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                components:
+               </code>
+              </div>
+              <div class="line number10 index9 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                securitySchemes:
+               </code>
+              </div>
+              <div class="line number11 index10 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                oAuthSample:
+               </code>
+              </div>
+              <div class="line number12 index11 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                type:
+               </code>
+               <code class="yml plain">
+                oauth2
+               </code>
+              </div>
+              <div class="line number13 index12 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                description:
+               </code>
+               <code class="yml plain">
+                This API uses OAuth 2 with the implicit
+                                    grant flow.
+               </code>
+              </div>
+              <div class="line number14 index13 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                flows:
+               </code>
+              </div>
+              <div class="line number15 index14 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                implicit:
+               </code>
+              </div>
+              <div class="line number16 index15 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                authorizationUrl:
+               </code>
+               <code class="yml plain">
+                https
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml plain">
+                //api.example.com/oauth2/authorize
+               </code>
+              </div>
+              <div class="line number17 index16 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                scopes:
+               </code>
+              </div>
+              <div class="line number18 index17 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                read_pets:
+               </code>
+               <code class="yml plain">
+                read your pets
+               </code>
+              </div>
+              <div class="line number19 index18 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                write_pets:
+               </code>
+               <code class="yml plain">
+                modify pets in your account
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <code>
+     paths.[*].[*].security.[*]. [
+     <scope>
+      ]
+     </scope>
+    </code>
+   </td>
+   <td>
+    <code>
+     update-scope-for-authentication-method
+    </code>
+   </td>
+   <td>
+   </td>
+   <td>
+    <code>
+     1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19
+    </code>
+   </td>
+   <td>
+    <code>
+     <div class="container" title="Hint: double-click to select code">
+      <div class="line number1 index0 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        openapi:
+       </code>
+       <code class="yml plain">
+        3.0.0
+       </code>
+      </div>
+      <div class="line number2 index1 alt1" data-bidi-marker="true">
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+      <div class="line number3 index2 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        paths:
+       </code>
+      </div>
+      <div class="line number4 index3 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        /pets
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number5 index4 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        post:
+       </code>
+      </div>
+      <div class="line number6 index5 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        security
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number7 index6 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml string bold">
+        -
+       </code>
+       <code class="yml plain">
+        oAuthSample
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number8 index7 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml string bold">
+        -
+       </code>
+       <code class="yml plain">
+        write_pets
+       </code>
+      </div>
+      <div class="line number9 index8 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        components:
+       </code>
+      </div>
+      <div class="line number10 index9 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        securitySchemes:
+       </code>
+      </div>
+      <div class="line number11 index10 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        oAuthSample:
+       </code>
+      </div>
+      <div class="line number12 index11 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        type:
+       </code>
+       <code class="yml plain">
+        oauth2
+       </code>
+      </div>
+      <div class="line number13 index12 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        description:
+       </code>
+       <code class="yml plain">
+        This API uses OAuth 2 with the implicit
+                                    grant flow.
+       </code>
+      </div>
+      <div class="line number14 index13 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        flows:
+       </code>
+      </div>
+      <div class="line number15 index14 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        implicit:
+       </code>
+      </div>
+      <div class="line number16 index15 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        authorizationUrl:
+       </code>
+       <code class="yml plain">
+        https
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+       <code class="yml plain">
+        //api.example.com/oauth2/authorize
+       </code>
+      </div>
+      <div class="line number17 index16 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        scopes:
+       </code>
+      </div>
+      <div class="line number18 index17 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        read_pets:
+       </code>
+       <code class="yml plain">
+        read your pets
+       </code>
+      </div>
+      <div class="line number19 index18 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        write_pets:
+       </code>
+       <code class="yml plain">
+        modify pets in your account
+       </code>
+      </div>
+     </div>
+    </code>
+   </td>
+   <td>
+    <div class="content-wrapper">
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        before
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_659192">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+             <div class="line number9 index8 alt2">
+              9
+             </div>
+             <div class="line number10 index9 alt1">
+              10
+             </div>
+             <div class="line number11 index10 alt2">
+              11
+             </div>
+             <div class="line number12 index11 alt1">
+              12
+             </div>
+             <div class="line number13 index12 alt2">
+              13
+             </div>
+             <div class="line number14 index13 alt1">
+              14
+             </div>
+             <div class="line number15 index14 alt2">
+              15
+             </div>
+             <div class="line number16 index15 alt1">
+              16
+             </div>
+             <div class="line number17 index16 alt2">
+              17
+             </div>
+             <div class="line number18 index17 alt1">
+              18
+             </div>
+             <div class="line number19 index18 alt2">
+              19
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                security
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string bold">
+                -
+               </code>
+               <code class="yml plain">
+                oAuthSample
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string bold">
+                -
+               </code>
+               <code class="yml plain">
+                write_pets
+               </code>
+              </div>
+              <div class="line number9 index8 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                components:
+               </code>
+              </div>
+              <div class="line number10 index9 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                securitySchemes:
+               </code>
+              </div>
+              <div class="line number11 index10 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                oAuthSample:
+               </code>
+              </div>
+              <div class="line number12 index11 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                type:
+               </code>
+               <code class="yml plain">
+                oauth2
+               </code>
+              </div>
+              <div class="line number13 index12 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                description:
+               </code>
+               <code class="yml plain">
+                This API uses OAuth 2 with the implicit
+                                    grant flow.
+               </code>
+              </div>
+              <div class="line number14 index13 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                flows:
+               </code>
+              </div>
+              <div class="line number15 index14 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                implicit:
+               </code>
+              </div>
+              <div class="line number16 index15 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                authorizationUrl:
+               </code>
+               <code class="yml plain">
+                https
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml plain">
+                //api.example.com/oauth2/authorize
+               </code>
+              </div>
+              <div class="line number17 index16 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                scopes:
+               </code>
+              </div>
+              <div class="line number18 index17 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                read_pets:
+               </code>
+               <code class="yml plain">
+                read your pets
+               </code>
+              </div>
+              <div class="line number19 index18 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                write_pets:
+               </code>
+               <code class="yml plain">
+                modify pets in your account
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        after
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_406128">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+             <div class="line number9 index8 alt2">
+              9
+             </div>
+             <div class="line number10 index9 alt1">
+              10
+             </div>
+             <div class="line number11 index10 alt2">
+              11
+             </div>
+             <div class="line number12 index11 alt1">
+              12
+             </div>
+             <div class="line number13 index12 alt2">
+              13
+             </div>
+             <div class="line number14 index13 alt1">
+              14
+             </div>
+             <div class="line number15 index14 alt2">
+              15
+             </div>
+             <div class="line number16 index15 alt1">
+              16
+             </div>
+             <div class="line number17 index16 alt2">
+              17
+             </div>
+             <div class="line number18 index17 alt1">
+              18
+             </div>
+             <div class="line number19 index18 alt2">
+              19
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                security
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string bold">
+                -
+               </code>
+               <code class="yml plain">
+                oAuthSample
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string bold">
+                -
+               </code>
+               <code class="yml plain">
+                read_pets
+               </code>
+              </div>
+              <div class="line number9 index8 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                components:
+               </code>
+              </div>
+              <div class="line number10 index9 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                securitySchemes:
+               </code>
+              </div>
+              <div class="line number11 index10 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                oAuthSample:
+               </code>
+              </div>
+              <div class="line number12 index11 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                type:
+               </code>
+               <code class="yml plain">
+                oauth2
+               </code>
+              </div>
+              <div class="line number13 index12 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                description:
+               </code>
+               <code class="yml plain">
+                This API uses OAuth 2 with the implicit
+                                    grant flow.
+               </code>
+              </div>
+              <div class="line number14 index13 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                flows:
+               </code>
+              </div>
+              <div class="line number15 index14 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                implicit:
+               </code>
+              </div>
+              <div class="line number16 index15 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                authorizationUrl:
+               </code>
+               <code class="yml plain">
+                https
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml plain">
+                //api.example.com/oauth2/authorize
+               </code>
+              </div>
+              <div class="line number17 index16 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                scopes:
+               </code>
+              </div>
+              <div class="line number18 index17 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                read_pets:
+               </code>
+               <code class="yml plain">
+                read your pets
+               </code>
+              </div>
+              <div class="line number19 index18 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                write_pets:
+               </code>
+               <code class="yml plain">
+                modify pets in your account
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <code>
+     paths.[*].[*].security.[*]. [
+     <scope>
+      ]
+     </scope>
+    </code>
+   </td>
+   <td>
+    <code>
+     remove-scope-for-authentication-method
+    </code>
+   </td>
+   <td>
+   </td>
+   <td>
+    <code>
+     1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19
+    </code>
+   </td>
+   <td>
+    <code>
+     <div class="container" title="Hint: double-click to select code">
+      <div class="line number1 index0 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        openapi:
+       </code>
+       <code class="yml plain">
+        3.0.0
+       </code>
+      </div>
+      <div class="line number2 index1 alt1" data-bidi-marker="true">
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+      <div class="line number3 index2 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        paths:
+       </code>
+      </div>
+      <div class="line number4 index3 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        /pets
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number5 index4 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        post:
+       </code>
+      </div>
+      <div class="line number6 index5 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        security
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number7 index6 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml string bold">
+        -
+       </code>
+       <code class="yml plain">
+        oAuthSample
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number8 index7 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml string bold">
+        -
+       </code>
+       <code class="yml plain">
+        read_pets
+       </code>
+      </div>
+      <div class="line number9 index8 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        components:
+       </code>
+      </div>
+      <div class="line number10 index9 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        securitySchemes:
+       </code>
+      </div>
+      <div class="line number11 index10 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        oAuthSample:
+       </code>
+      </div>
+      <div class="line number12 index11 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        type:
+       </code>
+       <code class="yml plain">
+        oauth2
+       </code>
+      </div>
+      <div class="line number13 index12 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        description:
+       </code>
+       <code class="yml plain">
+        This API uses OAuth 2 with the implicit
+                                    grant flow.
+       </code>
+      </div>
+      <div class="line number14 index13 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        flows:
+       </code>
+      </div>
+      <div class="line number15 index14 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        implicit:
+       </code>
+      </div>
+      <div class="line number16 index15 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        authorizationUrl:
+       </code>
+       <code class="yml plain">
+        https
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+       <code class="yml plain">
+        //api.example.com/oauth2/authorize
+       </code>
+      </div>
+      <div class="line number17 index16 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        scopes:
+       </code>
+      </div>
+      <div class="line number18 index17 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        read_pets:
+       </code>
+       <code class="yml plain">
+        read your pets
+       </code>
+      </div>
+      <div class="line number19 index18 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        write_pets:
+       </code>
+       <code class="yml plain">
+        modify pets in your account
+       </code>
+      </div>
+     </div>
+    </code>
+   </td>
+   <td>
+    <div class="content-wrapper">
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        before
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_828771">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+             <div class="line number9 index8 alt2">
+              9
+             </div>
+             <div class="line number10 index9 alt1">
+              10
+             </div>
+             <div class="line number11 index10 alt2">
+              11
+             </div>
+             <div class="line number12 index11 alt1">
+              12
+             </div>
+             <div class="line number13 index12 alt2">
+              13
+             </div>
+             <div class="line number14 index13 alt1">
+              14
+             </div>
+             <div class="line number15 index14 alt2">
+              15
+             </div>
+             <div class="line number16 index15 alt1">
+              16
+             </div>
+             <div class="line number17 index16 alt2">
+              17
+             </div>
+             <div class="line number18 index17 alt1">
+              18
+             </div>
+             <div class="line number19 index18 alt2">
+              19
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                security
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string bold">
+                -
+               </code>
+               <code class="yml plain">
+                oAuthSample
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string bold">
+                -
+               </code>
+               <code class="yml plain">
+                read_pets
+               </code>
+              </div>
+              <div class="line number9 index8 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                components:
+               </code>
+              </div>
+              <div class="line number10 index9 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                securitySchemes:
+               </code>
+              </div>
+              <div class="line number11 index10 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                oAuthSample:
+               </code>
+              </div>
+              <div class="line number12 index11 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                type:
+               </code>
+               <code class="yml plain">
+                oauth2
+               </code>
+              </div>
+              <div class="line number13 index12 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                description:
+               </code>
+               <code class="yml plain">
+                This API uses OAuth 2 with the implicit
+                                    grant flow.
+               </code>
+              </div>
+              <div class="line number14 index13 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                flows:
+               </code>
+              </div>
+              <div class="line number15 index14 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                implicit:
+               </code>
+              </div>
+              <div class="line number16 index15 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                authorizationUrl:
+               </code>
+               <code class="yml plain">
+                https
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml plain">
+                //api.example.com/oauth2/authorize
+               </code>
+              </div>
+              <div class="line number17 index16 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                scopes:
+               </code>
+              </div>
+              <div class="line number18 index17 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                read_pets:
+               </code>
+               <code class="yml plain">
+                read your pets
+               </code>
+              </div>
+              <div class="line number19 index18 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                write_pets:
+               </code>
+               <code class="yml plain">
+                modify pets in your account
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        after
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_547511">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+             <div class="line number9 index8 alt2">
+              9
+             </div>
+             <div class="line number10 index9 alt1">
+              10
+             </div>
+             <div class="line number11 index10 alt2">
+              11
+             </div>
+             <div class="line number12 index11 alt1">
+              12
+             </div>
+             <div class="line number13 index12 alt2">
+              13
+             </div>
+             <div class="line number14 index13 alt1">
+              14
+             </div>
+             <div class="line number15 index14 alt2">
+              15
+             </div>
+             <div class="line number16 index15 alt1">
+              16
+             </div>
+             <div class="line number17 index16 alt2">
+              17
+             </div>
+             <div class="line number18 index17 alt1">
+              18
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                post:
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                security
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string bold">
+                -
+               </code>
+               <code class="yml plain">
+                oAuthSample
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml constants">
+                [
+               </code>
+               <code class="yml constants">
+                ]
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml variable">
+                components:
+               </code>
+              </div>
+              <div class="line number9 index8 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                securitySchemes:
+               </code>
+              </div>
+              <div class="line number10 index9 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                oAuthSample:
+               </code>
+              </div>
+              <div class="line number11 index10 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                type:
+               </code>
+               <code class="yml plain">
+                oauth2
+               </code>
+              </div>
+              <div class="line number12 index11 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                description:
+               </code>
+               <code class="yml plain">
+                This API uses OAuth 2 with the implicit
+                                    grant flow.
+               </code>
+              </div>
+              <div class="line number13 index12 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                flows:
+               </code>
+              </div>
+              <div class="line number14 index13 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                implicit:
+               </code>
+              </div>
+              <div class="line number15 index14 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                authorizationUrl:
+               </code>
+               <code class="yml plain">
+                https
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml plain">
+                //api.example.com/oauth2/authorize
+               </code>
+              </div>
+              <div class="line number16 index15 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                scopes:
+               </code>
+              </div>
+              <div class="line number17 index16 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                read_pets:
+               </code>
+               <code class="yml plain">
+                read your pets
+               </code>
+              </div>
+              <div class="line number18 index17 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                write_pets:
+               </code>
+               <code class="yml plain">
+                modify pets in your account
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <code>
+     There may be cases with changes in the SecuritySchemes
+              definition, but they have been skipped for now.
+    </code>
+   </td>
+   <td>
+    <code>
+    </code>
+   </td>
+   <td>
+   </td>
+   <td>
+    <code>
+    </code>
+   </td>
+   <td>
+    <code>
+     <a href="http://devapp005mdc:7777/apispec-view/master/?path=/story/openapi-compatibility-suite-general-operation-parameters--%0A" target="_blank">
+     </a>
+    </code>
+   </td>
+   <td>
+    <br/>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <code>
+    </code>
+   </td>
+   <td>
+    <code>
+     add-custom-property-in-security-schemes
+    </code>
+   </td>
+   <td>
+   </td>
+   <td>
+    <code>
+     1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16
+    </code>
+   </td>
+   <td>
+    <code>
+     <div class="container" title="Hint: double-click to select code">
+      <div class="line number1 index0 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        openapi:
+       </code>
+       <code class="yml plain">
+        3.0.0
+       </code>
+      </div>
+      <div class="line number2 index1 alt1" data-bidi-marker="true">
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+      <div class="line number3 index2 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        paths:
+       </code>
+      </div>
+      <div class="line number4 index3 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        /pets
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number5 index4 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        get:
+       </code>
+      </div>
+      <div class="line number6 index5 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        security
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number7 index6 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml string bold">
+        -
+       </code>
+       <code class="yml plain">
+        ApiKeyAuth1
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+       <code class="yml constants">
+        [
+       </code>
+       <code class="yml constants">
+        ]
+       </code>
+      </div>
+      <div class="line number8 index7 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        responses:
+       </code>
+      </div>
+      <div class="line number9 index8 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml string">
+        '200'
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number10 index9 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        description:
+       </code>
+       <code class="yml plain">
+        OK
+       </code>
+      </div>
+      <div class="line number11 index10 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        components:
+       </code>
+      </div>
+      <div class="line number12 index11 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        securitySchemes:
+       </code>
+      </div>
+      <div class="line number13 index12 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        ApiKeyAuth1:
+       </code>
+      </div>
+      <div class="line number14 index13 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        type:
+       </code>
+       <code class="yml plain">
+        apiKey
+       </code>
+      </div>
+      <div class="line number15 index14 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        in:
+       </code>
+       <code class="yml plain">
+        header
+       </code>
+      </div>
+      <div class="line number16 index15 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        name:
+       </code>
+       <code class="yml plain">
+        X-API-KEY
+       </code>
+      </div>
+     </div>
+    </code>
+   </td>
+   <td>
+    <div class="content-wrapper" title="">
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        before
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_308607">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+             <div class="line number9 index8 alt2">
+              9
+             </div>
+             <div class="line number10 index9 alt1">
+              10
+             </div>
+             <div class="line number11 index10 alt2">
+              11
+             </div>
+             <div class="line number12 index11 alt1">
+              12
+             </div>
+             <div class="line number13 index12 alt2">
+              13
+             </div>
+             <div class="line number14 index13 alt1">
+              14
+             </div>
+             <div class="line number15 index14 alt2">
+              15
+             </div>
+             <div class="line number16 index15 alt1">
+              16
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                get:
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                security
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string bold">
+                -
+               </code>
+               <code class="yml plain">
+                ApiKeyAuth1
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml constants">
+                [
+               </code>
+               <code class="yml constants">
+                ]
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                responses:
+               </code>
+              </div>
+              <div class="line number9 index8 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string">
+                '200'
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number10 index9 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                description:
+               </code>
+               <code class="yml plain">
+                OK
+               </code>
+              </div>
+              <div class="line number11 index10 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                components:
+               </code>
+              </div>
+              <div class="line number12 index11 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                securitySchemes:
+               </code>
+              </div>
+              <div class="line number13 index12 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                ApiKeyAuth1:
+               </code>
+              </div>
+              <div class="line number14 index13 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                type:
+               </code>
+               <code class="yml plain">
+                apiKey
+               </code>
+              </div>
+              <div class="line number15 index14 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                in:
+               </code>
+               <code class="yml plain">
+                header
+               </code>
+              </div>
+              <div class="line number16 index15 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                name:
+               </code>
+               <code class="yml plain">
+                X-API-KEY
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        after
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_403556">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+             <div class="line number9 index8 alt2">
+              9
+             </div>
+             <div class="line number10 index9 alt1">
+              10
+             </div>
+             <div class="line number11 index10 alt2">
+              11
+             </div>
+             <div class="line number12 index11 alt1">
+              12
+             </div>
+             <div class="line number13 index12 alt2">
+              13
+             </div>
+             <div class="line number14 index13 alt1">
+              14
+             </div>
+             <div class="line number15 index14 alt2">
+              15
+             </div>
+             <div class="line number16 index15 alt1">
+              16
+             </div>
+             <div class="line number17 index16 alt2">
+              17
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                get:
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                security
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string bold">
+                -
+               </code>
+               <code class="yml plain">
+                ApiKeyAuth1
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml constants">
+                [
+               </code>
+               <code class="yml constants">
+                ]
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                responses:
+               </code>
+              </div>
+              <div class="line number9 index8 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string">
+                '200'
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number10 index9 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                description:
+               </code>
+               <code class="yml plain">
+                OK
+               </code>
+              </div>
+              <div class="line number11 index10 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                components:
+               </code>
+              </div>
+              <div class="line number12 index11 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                securitySchemes:
+               </code>
+              </div>
+              <div class="line number13 index12 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                ApiKeyAuth1:
+               </code>
+              </div>
+              <div class="line number14 index13 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                type:
+               </code>
+               <code class="yml plain">
+                apiKey
+               </code>
+              </div>
+              <div class="line number15 index14 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                in:
+               </code>
+               <code class="yml plain">
+                header
+               </code>
+              </div>
+              <div class="line number16 index15 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                name:
+               </code>
+               <code class="yml plain">
+                X-API-KEY
+               </code>
+              </div>
+              <div class="line number17 index16 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                x-security-level:
+               </code>
+               <code class="yml plain">
+                high
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <code>
+    </code>
+   </td>
+   <td>
+    <code>
+     update-custom-property-value-in-security-schemes
+    </code>
+   </td>
+   <td>
+   </td>
+   <td>
+    <code>
+     1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17
+    </code>
+   </td>
+   <td>
+    <code>
+     <div class="container" title="Hint: double-click to select code">
+      <div class="line number1 index0 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        openapi:
+       </code>
+       <code class="yml plain">
+        3.0.0
+       </code>
+      </div>
+      <div class="line number2 index1 alt1" data-bidi-marker="true">
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+      <div class="line number3 index2 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        paths:
+       </code>
+      </div>
+      <div class="line number4 index3 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        /pets
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number5 index4 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        get:
+       </code>
+      </div>
+      <div class="line number6 index5 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        security
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number7 index6 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml string bold">
+        -
+       </code>
+       <code class="yml plain">
+        ApiKeyAuth1
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+       <code class="yml constants">
+        [
+       </code>
+       <code class="yml constants">
+        ]
+       </code>
+      </div>
+      <div class="line number8 index7 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        responses:
+       </code>
+      </div>
+      <div class="line number9 index8 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml string">
+        '200'
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number10 index9 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        description:
+       </code>
+       <code class="yml plain">
+        OK
+       </code>
+      </div>
+      <div class="line number11 index10 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        components:
+       </code>
+      </div>
+      <div class="line number12 index11 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        securitySchemes:
+       </code>
+      </div>
+      <div class="line number13 index12 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        ApiKeyAuth1:
+       </code>
+      </div>
+      <div class="line number14 index13 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        type:
+       </code>
+       <code class="yml plain">
+        apiKey
+       </code>
+      </div>
+      <div class="line number15 index14 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        in:
+       </code>
+       <code class="yml plain">
+        header
+       </code>
+      </div>
+      <div class="line number16 index15 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        name:
+       </code>
+       <code class="yml plain">
+        X-API-KEY
+       </code>
+      </div>
+      <div class="line number17 index16 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        x-security-level:
+       </code>
+       <code class="yml plain">
+        medium
+       </code>
+      </div>
+     </div>
+    </code>
+   </td>
+   <td>
+    <div class="content-wrapper">
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        before
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_29699">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+             <div class="line number9 index8 alt2">
+              9
+             </div>
+             <div class="line number10 index9 alt1">
+              10
+             </div>
+             <div class="line number11 index10 alt2">
+              11
+             </div>
+             <div class="line number12 index11 alt1">
+              12
+             </div>
+             <div class="line number13 index12 alt2">
+              13
+             </div>
+             <div class="line number14 index13 alt1">
+              14
+             </div>
+             <div class="line number15 index14 alt2">
+              15
+             </div>
+             <div class="line number16 index15 alt1">
+              16
+             </div>
+             <div class="line number17 index16 alt2">
+              17
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                get:
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                security
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string bold">
+                -
+               </code>
+               <code class="yml plain">
+                ApiKeyAuth1
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml constants">
+                [
+               </code>
+               <code class="yml constants">
+                ]
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                responses:
+               </code>
+              </div>
+              <div class="line number9 index8 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string">
+                '200'
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number10 index9 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                description:
+               </code>
+               <code class="yml plain">
+                OK
+               </code>
+              </div>
+              <div class="line number11 index10 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                components:
+               </code>
+              </div>
+              <div class="line number12 index11 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                securitySchemes:
+               </code>
+              </div>
+              <div class="line number13 index12 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                ApiKeyAuth1:
+               </code>
+              </div>
+              <div class="line number14 index13 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                type:
+               </code>
+               <code class="yml plain">
+                apiKey
+               </code>
+              </div>
+              <div class="line number15 index14 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                in:
+               </code>
+               <code class="yml plain">
+                header
+               </code>
+              </div>
+              <div class="line number16 index15 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                name:
+               </code>
+               <code class="yml plain">
+                X-API-KEY
+               </code>
+              </div>
+              <div class="line number17 index16 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                x-security-level:
+               </code>
+               <code class="yml plain">
+                medium
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        after
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_716039">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+             <div class="line number9 index8 alt2">
+              9
+             </div>
+             <div class="line number10 index9 alt1">
+              10
+             </div>
+             <div class="line number11 index10 alt2">
+              11
+             </div>
+             <div class="line number12 index11 alt1">
+              12
+             </div>
+             <div class="line number13 index12 alt2">
+              13
+             </div>
+             <div class="line number14 index13 alt1">
+              14
+             </div>
+             <div class="line number15 index14 alt2">
+              15
+             </div>
+             <div class="line number16 index15 alt1">
+              16
+             </div>
+             <div class="line number17 index16 alt2">
+              17
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                get:
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                security
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string bold">
+                -
+               </code>
+               <code class="yml plain">
+                ApiKeyAuth1
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml constants">
+                [
+               </code>
+               <code class="yml constants">
+                ]
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                responses:
+               </code>
+              </div>
+              <div class="line number9 index8 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string">
+                '200'
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number10 index9 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                description:
+               </code>
+               <code class="yml plain">
+                OK
+               </code>
+              </div>
+              <div class="line number11 index10 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                components:
+               </code>
+              </div>
+              <div class="line number12 index11 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                securitySchemes:
+               </code>
+              </div>
+              <div class="line number13 index12 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                ApiKeyAuth1:
+               </code>
+              </div>
+              <div class="line number14 index13 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                type:
+               </code>
+               <code class="yml plain">
+                apiKey
+               </code>
+              </div>
+              <div class="line number15 index14 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                in:
+               </code>
+               <code class="yml plain">
+                header
+               </code>
+              </div>
+              <div class="line number16 index15 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                name:
+               </code>
+               <code class="yml plain">
+                X-API-KEY
+               </code>
+              </div>
+              <div class="line number17 index16 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                x-security-level:
+               </code>
+               <code class="yml plain">
+                high
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <code>
+    </code>
+   </td>
+   <td>
+    <code>
+     remove-custom-property-in-security-schemes
+    </code>
+   </td>
+   <td>
+   </td>
+   <td>
+    <code>
+     1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17
+    </code>
+   </td>
+   <td>
+    <code>
+     <div class="container" title="Hint: double-click to select code">
+      <div class="line number1 index0 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        openapi:
+       </code>
+       <code class="yml plain">
+        3.0.0
+       </code>
+      </div>
+      <div class="line number2 index1 alt1" data-bidi-marker="true">
+       <code class="yml plain">
+        ...
+       </code>
+      </div>
+      <div class="line number3 index2 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        paths:
+       </code>
+      </div>
+      <div class="line number4 index3 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        /pets
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number5 index4 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        get:
+       </code>
+      </div>
+      <div class="line number6 index5 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml plain">
+        security
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number7 index6 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml string bold">
+        -
+       </code>
+       <code class="yml plain">
+        ApiKeyAuth1
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+       <code class="yml constants">
+        [
+       </code>
+       <code class="yml constants">
+        ]
+       </code>
+      </div>
+      <div class="line number8 index7 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        responses:
+       </code>
+      </div>
+      <div class="line number9 index8 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml string">
+        '200'
+       </code>
+       <code class="yml constants">
+        :
+       </code>
+      </div>
+      <div class="line number10 index9 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        description:
+       </code>
+       <code class="yml plain">
+        OK
+       </code>
+      </div>
+      <div class="line number11 index10 alt2" data-bidi-marker="true">
+       <code class="yml variable">
+        components:
+       </code>
+      </div>
+      <div class="line number12 index11 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        securitySchemes:
+       </code>
+      </div>
+      <div class="line number13 index12 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        ApiKeyAuth1:
+       </code>
+      </div>
+      <div class="line number14 index13 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        type:
+       </code>
+       <code class="yml plain">
+        apiKey
+       </code>
+      </div>
+      <div class="line number15 index14 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        in:
+       </code>
+       <code class="yml plain">
+        header
+       </code>
+      </div>
+      <div class="line number16 index15 alt1" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        name:
+       </code>
+       <code class="yml plain">
+        X-API-KEY
+       </code>
+      </div>
+      <div class="line number17 index16 alt2" data-bidi-marker="true">
+       <code class="yml spaces">
+       </code>
+       <code class="yml variable">
+        x-security-level:
+       </code>
+       <code class="yml plain">
+        high
+       </code>
+      </div>
+     </div>
+    </code>
+   </td>
+   <td>
+    <div class="content-wrapper">
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        before
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_468222">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+             <div class="line number9 index8 alt2">
+              9
+             </div>
+             <div class="line number10 index9 alt1">
+              10
+             </div>
+             <div class="line number11 index10 alt2">
+              11
+             </div>
+             <div class="line number12 index11 alt1">
+              12
+             </div>
+             <div class="line number13 index12 alt2">
+              13
+             </div>
+             <div class="line number14 index13 alt1">
+              14
+             </div>
+             <div class="line number15 index14 alt2">
+              15
+             </div>
+             <div class="line number16 index15 alt1">
+              16
+             </div>
+             <div class="line number17 index16 alt2">
+              17
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                get:
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                security
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string bold">
+                -
+               </code>
+               <code class="yml plain">
+                ApiKeyAuth1
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml constants">
+                [
+               </code>
+               <code class="yml constants">
+                ]
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                responses:
+               </code>
+              </div>
+              <div class="line number9 index8 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string">
+                '200'
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number10 index9 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                description:
+               </code>
+               <code class="yml plain">
+                OK
+               </code>
+              </div>
+              <div class="line number11 index10 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                components:
+               </code>
+              </div>
+              <div class="line number12 index11 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                securitySchemes:
+               </code>
+              </div>
+              <div class="line number13 index12 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                ApiKeyAuth1:
+               </code>
+              </div>
+              <div class="line number14 index13 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                type:
+               </code>
+               <code class="yml plain">
+                apiKey
+               </code>
+              </div>
+              <div class="line number15 index14 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                in:
+               </code>
+               <code class="yml plain">
+                header
+               </code>
+              </div>
+              <div class="line number16 index15 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                name:
+               </code>
+               <code class="yml plain">
+                X-API-KEY
+               </code>
+              </div>
+              <div class="line number17 index16 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                x-security-level:
+               </code>
+               <code class="yml plain">
+                high
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="code panel pdl conf-macro output-block" data-hasbody="true" data-macro-name="code" style="border-width: 1px">
+      <div class="codeHeader panelHeader pdl hide-border-bottom" style="border-bottom-width: 1px">
+       <b class="code-title">
+        after
+       </b>
+       <span class="collapse-source expand-control" style="">
+        <span class="expand-control-icon icon">
+        </span>
+        <span class="expand-control-text">
+         Expand source
+        </span>
+       </span>
+      </div>
+      <div class="codeContent panelContent pdl hide-toolbar">
+       <div>
+        <div class="syntaxhighlighter collapsed sh-confluence yml" id="highlighter_719151">
+         <div class="toolbar">
+          <span>
+           <a class="toolbar_item command_expandSource expandSource" href="#">
+            expand source
+           </a>
+          </span>
+          <span>
+           <a class="toolbar_item command_help help" href="#">
+            ?
+           </a>
+          </span>
+         </div>
+         <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+           <tr>
+            <td class="gutter">
+             <div class="line number1 index0 alt2">
+              1
+             </div>
+             <div class="line number2 index1 alt1">
+              2
+             </div>
+             <div class="line number3 index2 alt2">
+              3
+             </div>
+             <div class="line number4 index3 alt1">
+              4
+             </div>
+             <div class="line number5 index4 alt2">
+              5
+             </div>
+             <div class="line number6 index5 alt1">
+              6
+             </div>
+             <div class="line number7 index6 alt2">
+              7
+             </div>
+             <div class="line number8 index7 alt1">
+              8
+             </div>
+             <div class="line number9 index8 alt2">
+              9
+             </div>
+             <div class="line number10 index9 alt1">
+              10
+             </div>
+             <div class="line number11 index10 alt2">
+              11
+             </div>
+             <div class="line number12 index11 alt1">
+              12
+             </div>
+             <div class="line number13 index12 alt2">
+              13
+             </div>
+             <div class="line number14 index13 alt1">
+              14
+             </div>
+             <div class="line number15 index14 alt2">
+              15
+             </div>
+             <div class="line number16 index15 alt1">
+              16
+             </div>
+            </td>
+            <td class="code">
+             <div class="container" title="Hint: double-click to select code">
+              <div class="line number1 index0 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                openapi:
+               </code>
+               <code class="yml plain">
+                3.0.0
+               </code>
+              </div>
+              <div class="line number2 index1 alt1" data-bidi-marker="true">
+               <code class="yml plain">
+                ...
+               </code>
+              </div>
+              <div class="line number3 index2 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                paths:
+               </code>
+              </div>
+              <div class="line number4 index3 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                /pets
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number5 index4 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                get:
+               </code>
+              </div>
+              <div class="line number6 index5 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml plain">
+                security
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number7 index6 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string bold">
+                -
+               </code>
+               <code class="yml plain">
+                ApiKeyAuth1
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+               <code class="yml constants">
+                [
+               </code>
+               <code class="yml constants">
+                ]
+               </code>
+              </div>
+              <div class="line number8 index7 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                responses:
+               </code>
+              </div>
+              <div class="line number9 index8 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml string">
+                '200'
+               </code>
+               <code class="yml constants">
+                :
+               </code>
+              </div>
+              <div class="line number10 index9 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                description:
+               </code>
+               <code class="yml plain">
+                OK
+               </code>
+              </div>
+              <div class="line number11 index10 alt2" data-bidi-marker="true">
+               <code class="yml variable">
+                components:
+               </code>
+              </div>
+              <div class="line number12 index11 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                securitySchemes:
+               </code>
+              </div>
+              <div class="line number13 index12 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                ApiKeyAuth1:
+               </code>
+              </div>
+              <div class="line number14 index13 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                type:
+               </code>
+               <code class="yml plain">
+                apiKey
+               </code>
+              </div>
+              <div class="line number15 index14 alt2" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                in:
+               </code>
+               <code class="yml plain">
+                header
+               </code>
+              </div>
+              <div class="line number16 index15 alt1" data-bidi-marker="true">
+               <code class="yml spaces">
+               </code>
+               <code class="yml variable">
+                name:
+               </code>
+               <code class="yml plain">
+                X-API-KEY
+               </code>
+              </div>
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </td>
+  </tr>
+ </tbody>
+</table>
